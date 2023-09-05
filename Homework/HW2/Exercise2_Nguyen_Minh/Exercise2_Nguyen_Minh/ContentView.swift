@@ -71,7 +71,7 @@ struct ContentView: View {
             Text("CardHub")
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(Color(red: 0.5686, green: 0.2627, blue: 0.2000))
+                .foregroundColor(Color(red: 142 / 255.0, green: 66 / 255.0, blue: 53 / 255.0))
 
             Image(topics[cardIdx].iconName)
                 .resizable()
@@ -84,7 +84,7 @@ struct ContentView: View {
                     .overlay(
                         VStack {
                             ZStack {
-                                Color(red: 0.9647, green: 0.4392, blue: 0.0000)
+                                Color(red: 242 / 255.0, green: 103 / 255.0, blue: 28 / 255.0)
                                 Text("Card: \(selectedCard)")
                                     .font(.title2)
                                     .fontWeight(.bold)
@@ -92,7 +92,7 @@ struct ContentView: View {
                             }
                             .frame(height: 40)
                             ZStack {
-                                Color(red: 0.7451, green: 0.7686, blue: 0.8118)
+                                Color(red: 180 / 255.0, green: 190 / 255.0, blue: 200 / 255.0)
                                 VStack(alignment: .leading, spacing: 10) {
                                     ForEach(topics[cardIdx].contents, id: \.self) { content in
                                         HStack(alignment: .top) {
@@ -117,7 +117,7 @@ struct ContentView: View {
                     .overlay(
                         VStack {
                             ZStack {
-                                Color(red: 0.9451, green: 0.7882, blue: 0.6000)
+                                Color(red: 238 / 255.0, green: 194 / 255.0, blue: 146 / 255.0)
                                 Button(action: { handleRandomCard() }) {
                                     Text("Random card")
                                         .font(.title2)
@@ -127,7 +127,7 @@ struct ContentView: View {
                             }
                             .frame(height: 50)
                             ZStack {
-                                Color(red: 0.9647, green: 0.4392, blue: 0.0000)
+                                Color(red: 242 / 255.0, green: 103 / 255.0, blue: 28 / 255.0)
                                 Button(action: { handleNextCard() }) {
                                     Text("Next card")
                                         .font(.title2)
@@ -137,7 +137,7 @@ struct ContentView: View {
                             }
                             .frame(height: 50)
                             ZStack {
-                                Color(red: 0.5922, green: 0.2863, blue: 0.2235)
+                                Color(red: 142 / 255.0, green: 66 / 255.0, blue: 53 / 255.0)
                                 Button(action: { isShowingSheet = true }) {
                                     Text("Card selector")
                                         .font(.title2)
