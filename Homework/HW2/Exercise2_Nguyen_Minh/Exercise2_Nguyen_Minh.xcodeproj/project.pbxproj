@@ -11,6 +11,7 @@
 		8789FB312AA40DF6003B6030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8789FB302AA40DF6003B6030 /* Assets.xcassets */; };
 		8789FB342AA40DF6003B6030 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8789FB332AA40DF6003B6030 /* Preview Assets.xcassets */; };
 		8789FB582AA43154003B6030 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789FB2E2AA40DF5003B6030 /* ContentView.swift */; };
+		8789FB5A2AA6B609003B6030 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789FB592AA6B609003B6030 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8789FB332AA40DF6003B6030 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8789FB392AA40DF6003B6030 /* Exercise2_Nguyen_MinhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Exercise2_Nguyen_MinhTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8789FB432AA40DF6003B6030 /* Exercise2_Nguyen_MinhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Exercise2_Nguyen_MinhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8789FB592AA6B609003B6030 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		8789FB2B2AA40DF5003B6030 /* Exercise2_Nguyen_Minh */ = {
 			isa = PBXGroup;
 			children = (
+				8789FB592AA6B609003B6030 /* SplashView.swift */,
 				8789FB2C2AA40DF5003B6030 /* Exercise2_Nguyen_MinhApp.swift */,
 				8789FB2E2AA40DF5003B6030 /* ContentView.swift */,
 				8789FB302AA40DF6003B6030 /* Assets.xcassets */,
@@ -234,6 +237,7 @@
 			files = (
 				8789FB582AA43154003B6030 /* ContentView.swift in Sources */,
 				8789FB2D2AA40DF5003B6030 /* Exercise2_Nguyen_MinhApp.swift in Sources */,
+				8789FB5A2AA6B609003B6030 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
