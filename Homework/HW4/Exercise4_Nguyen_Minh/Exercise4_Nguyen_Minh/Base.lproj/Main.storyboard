@@ -84,7 +84,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MTY-sA-Fip" userLabel="ResultView">
                                                 <rect key="frame" x="0.0" y="0.0" width="362" height="85"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prepare for the battle!" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-1r-II4">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prepare for the battle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-1r-II4">
                                                         <rect key="frame" x="20" y="43.333333333333314" width="322" height="41.666666666666657"/>
                                                         <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="35"/>
                                                         <color key="textColor" red="0.43137252329999998" green="0.2297420651" blue="0.17302837700000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -108,18 +108,13 @@
                                                         </constraints>
                                                         <color key="tintColor" red="0.43137252329999998" green="0.2297420651" blue="0.17302837700000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" buttonSize="small">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Restart" buttonSize="small">
                                                             <backgroundConfiguration key="background" image="0_refresh_arrows" imageContentMode="scaleAspectFit" strokeOutset="0.0"/>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Restart">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="35" name="AcademyEngravedLetPlain"/>
-                                                                        <font key="NSOriginalFont" size="12" name="Helvetica"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="35"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="RestartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AeR-Xo-FR8"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="top" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58V-d4-mCZ">
                                                         <rect key="frame" x="156" y="0.0" width="124" height="191"/>
@@ -129,17 +124,13 @@
                                                         </constraints>
                                                         <color key="tintColor" red="0.43137252329999998" green="0.2297420651" blue="0.17302837700000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" buttonSize="small">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Fight" buttonSize="small">
                                                             <backgroundConfiguration key="background" image="0_crossing-swords" imageContentMode="scaleAspectFit" strokeOutset="0.0"/>
-                                                            <attributedString key="attributedTitle">
-                                                                <fragment content="Fight">
-                                                                    <attributes>
-                                                                        <font key="NSFont" size="35" name="AcademyEngravedLetPlain"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                            <fontDescription key="titleFontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="35"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="FightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kca-Ch-4Ln"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -163,6 +154,11 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="PlayerOneDragon" destination="Faw-jq-ywf" id="ZG1-jv-LfT"/>
+                        <outlet property="PlayerTwoDragon" destination="Xo5-Qp-a2Q" id="arj-HC-FTr"/>
+                        <outlet property="Result" destination="NTM-1r-II4" id="DLH-QM-DPs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
