@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8706C9AD2AB97117007B0DD0 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8706C9AC2AB97117007B0DD0 /* ScoreViewController.swift */; };
+		8706C9AF2AB9731D007B0DD0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8706C9AE2AB9731D007B0DD0 /* GameViewController.swift */; };
 		8768B6732AB7783600A982F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768B6722AB7783600A982F1 /* AppDelegate.swift */; };
 		8768B6752AB7783600A982F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768B6742AB7783600A982F1 /* SceneDelegate.swift */; };
 		8768B6772AB7783600A982F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8768B6762AB7783600A982F1 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8706C9AC2AB97117007B0DD0 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		8706C9AE2AB9731D007B0DD0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8768B66F2AB7783600A982F1 /* Exercise4_Nguyen_Minh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise4_Nguyen_Minh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8768B6722AB7783600A982F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8768B6742AB7783600A982F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				8768B6722AB7783600A982F1 /* AppDelegate.swift */,
 				8768B6742AB7783600A982F1 /* SceneDelegate.swift */,
 				8768B6762AB7783600A982F1 /* ViewController.swift */,
+				8706C9AC2AB97117007B0DD0 /* ScoreViewController.swift */,
 				8768B6782AB7783600A982F1 /* Main.storyboard */,
 				8768B67B2AB7783700A982F1 /* Assets.xcassets */,
 				8768B67D2AB7783700A982F1 /* LaunchScreen.storyboard */,
 				8768B6802AB7783700A982F1 /* Info.plist */,
+				8706C9AE2AB9731D007B0DD0 /* GameViewController.swift */,
 			);
 			path = Exercise4_Nguyen_Minh;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8706C9AF2AB9731D007B0DD0 /* GameViewController.swift in Sources */,
 				8768B6772AB7783600A982F1 /* ViewController.swift in Sources */,
 				8768B6732AB7783600A982F1 /* AppDelegate.swift in Sources */,
 				8768B6752AB7783600A982F1 /* SceneDelegate.swift in Sources */,
+				8706C9AD2AB97117007B0DD0 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

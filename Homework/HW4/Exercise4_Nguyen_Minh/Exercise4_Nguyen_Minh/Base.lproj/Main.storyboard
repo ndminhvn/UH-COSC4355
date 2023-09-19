@@ -11,7 +11,7 @@
         <!--Game-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exercise4_Nguyen_Minh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="Exercise4_Nguyen_Minh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC" userLabel="GameView">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="362" height="31"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prepare for the battle!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTM-1r-II4">
-                                                        <rect key="frame" x="20" y="-5.3333333333333144" width="322" height="41.666666666666671"/>
+                                                        <rect key="frame" x="20" y="-5.3333333333333144" width="322" height="41.666666666666664"/>
                                                         <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="35"/>
                                                         <color key="textColor" red="0.43137252329999998" green="0.2297420651" blue="0.17302837700000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
@@ -186,7 +186,7 @@
         <!--Score-->
         <scene sceneID="iXq-gM-6eG">
             <objects>
-                <viewController id="9g6-YP-cYt" sceneMemberID="viewController">
+                <viewController id="9g6-YP-cYt" customClass="ScoreViewController" customModule="Exercise4_Nguyen_Minh" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="10d-h7-FRP" userLabel="ScoreView">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
