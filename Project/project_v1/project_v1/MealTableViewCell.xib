@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MealTableViewCell" id="KGk-i7-Jjw" customClass="MealTableViewCell" customModule="project_v1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="307" height="33"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="307" height="33"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1x-d8-hhS">
+                        <rect key="frame" x="264" y="0.0" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="Mps-te-bzl"/>
+                            <constraint firstAttribute="height" constant="33" id="o1v-DH-Wh3"/>
+                        </constraints>
+                        <state key="normal" image="inactive_exclude"/>
+                        <connections>
+                            <action selector="didTapExcludeButtonWith:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nz5-n3-c3b"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwB-Pu-aXF">
+                        <rect key="frame" x="211" y="0.0" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="5JC-VJ-BDN"/>
+                            <constraint firstAttribute="width" constant="33" id="kNm-ew-0GK"/>
+                        </constraints>
+                        <state key="normal" image="inactive_include"/>
+                        <connections>
+                            <action selector="didTapIncludeButton" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ybo-4w-gON"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWv-aT-i6G">
+                        <rect key="frame" x="5" y="0.0" width="0.0" height="33"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cwB-Pu-aXF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="73c-Mm-WSd"/>
+                    <constraint firstItem="B1x-d8-hhS" firstAttribute="leading" secondItem="cwB-Pu-aXF" secondAttribute="trailing" constant="20" id="AWx-TZ-3go"/>
+                    <constraint firstItem="ZWv-aT-i6G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="CbD-5M-1tm"/>
+                    <constraint firstAttribute="bottom" secondItem="ZWv-aT-i6G" secondAttribute="bottom" id="Eqk-lG-yG3"/>
+                    <constraint firstAttribute="bottom" secondItem="cwB-Pu-aXF" secondAttribute="bottom" id="G4a-It-gst"/>
+                    <constraint firstItem="ZWv-aT-i6G" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="UPR-Iu-RxP"/>
+                    <constraint firstAttribute="bottom" secondItem="B1x-d8-hhS" secondAttribute="bottom" id="WhA-Lm-UeM"/>
+                    <constraint firstItem="B1x-d8-hhS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gRd-S5-wID"/>
+                    <constraint firstAttribute="trailing" secondItem="B1x-d8-hhS" secondAttribute="trailing" constant="10" id="h7G-X7-L7g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="excludeButton" destination="B1x-d8-hhS" id="3m0-01-l64"/>
+                <outlet property="includeButton" destination="cwB-Pu-aXF" id="4l6-ZI-P8D"/>
+                <outlet property="ingLabel" destination="ZWv-aT-i6G" id="9JU-xP-1SK"/>
+            </connections>
+            <point key="canvasLocation" x="128.2608695652174" y="38.504464285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="inactive_exclude" width="25" height="25"/>
+        <image name="inactive_include" width="25" height="25"/>
+    </resources>
+</document>
