@@ -13,6 +13,7 @@
 		87506E282AC9F2F300D64B9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87506E272AC9F2F300D64B9C /* Preview Assets.xcassets */; };
 		87506E312ACA008100D64B9C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87506E302ACA008100D64B9C /* DataModel.swift */; };
 		87506E332ACA01E700D64B9C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87506E322ACA01E700D64B9C /* DetailView.swift */; };
+		875813842ACA34C100D8A524 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875813832ACA34C100D8A524 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		87506E272AC9F2F300D64B9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87506E302ACA008100D64B9C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		87506E322ACA01E700D64B9C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		875813832ACA34C100D8A524 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				87506E202AC9F2F200D64B9C /* Exercise5_Nguyen_MinhApp.swift */,
 				87506E222AC9F2F200D64B9C /* ContentView.swift */,
+				875813832ACA34C100D8A524 /* SplashView.swift */,
 				87506E322ACA01E700D64B9C /* DetailView.swift */,
 				87506E302ACA008100D64B9C /* DataModel.swift */,
 				87506E242AC9F2F300D64B9C /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				87506E232AC9F2F200D64B9C /* ContentView.swift in Sources */,
 				87506E332ACA01E700D64B9C /* DetailView.swift in Sources */,
+				875813842ACA34C100D8A524 /* SplashView.swift in Sources */,
 				87506E212AC9F2F200D64B9C /* Exercise5_Nguyen_MinhApp.swift in Sources */,
 				87506E312ACA008100D64B9C /* DataModel.swift in Sources */,
 			);
