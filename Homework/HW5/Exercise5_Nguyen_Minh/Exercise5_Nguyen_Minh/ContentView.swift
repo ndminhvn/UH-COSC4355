@@ -51,6 +51,7 @@ struct ContentView: View {
             }
             .padding()
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 
     func loadData() {

@@ -65,54 +65,7 @@ struct DetailView: View {
                 }
             }
             .padding()
-
-        } 
-//        else if isIPhoneLandscape {
-//            HStack {
-//                AsyncImage(url: URL(string: restaurant.map.replacingOccurrences(of: "http://", with: "https://"))) { phase in
-//                    if let image = phase.image {
-//                        image
-//                            .resizable()
-//                            .scaledToFit()
-//                    } else if phase.error != nil {
-//                        Text("Error image")
-//                    } else {
-//                        ProgressView()
-//                            .progressViewStyle(CircularProgressViewStyle())
-//                    }
-//                }
-////                .frame(maxWidth: .infinity)
-//                Spacer()
-//                VStack {
-//                    AsyncImage(url: URL(string: restaurant.logo.replacingOccurrences(of: "http://", with: "https://"))) { phase in
-//                        if let image = phase.image {
-//                            image
-//                                .resizable()
-//                                .scaledToFit()
-//                        } else if phase.error != nil {
-//                            Text("Error image")
-//                        } else {
-//                            ProgressView()
-//                                .progressViewStyle(CircularProgressViewStyle())
-//                        }
-//                    }
-//                    .frame(maxHeight: 80)
-//                    Spacer()
-//                    Text("P: \(restaurant.lots)")
-//                        .bold()
-//                        .font(.title2)
-//                        .multilineTextAlignment(.center)
-//                    Spacer()
-//                    Text(restaurant.about)
-//                        .multilineTextAlignment(.center)
-//                        .frame(width: 300)
-//                    Text(restaurant.phone)
-//                    Spacer()
-//                }
-//            }
-//            .padding()
-//        } 
-        else {
+        } else {
             VStack {
                 AsyncImage(url: URL(string: restaurant.map.replacingOccurrences(of: "http://", with: "https://"))) { phase in
                     if let image = phase.image {
