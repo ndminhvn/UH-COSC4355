@@ -16,7 +16,9 @@ struct Treasure: Codable, Identifiable {
     var hint: String
     var cap_lat: Double
     var cap_long: Double
-    
+}
+
+extension Treasure {
     var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: cap_lat, longitude: cap_long)
     }
