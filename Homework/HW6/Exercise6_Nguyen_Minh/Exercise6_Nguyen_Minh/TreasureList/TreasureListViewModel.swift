@@ -40,10 +40,7 @@ class TreasureListViewModel: ObservableObject {
     }
 
     func treasureColor(_ value: Int) -> Color {
-        if value > 50 {
-            return Color(red: 255 / 255.0, green: 215 / 255.0, blue: 0, opacity: Double(value) / 100)
-        }
-        return Color(red: 255 / 255.0, green: 215 / 255.0, blue: 0, opacity: Double(value - 30) / 100)
+        return Color(red: 255 / 255.0, green: 215 / 255.0, blue: 0).opacity(Double(value - 45) / 55)
     }
 
     func deleteTreasure(at offsets: IndexSet) {
