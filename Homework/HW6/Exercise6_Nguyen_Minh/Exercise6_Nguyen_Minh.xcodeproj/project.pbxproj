@@ -63,7 +63,6 @@
 				877C7ED52ADC5E950052CF8A /* Exercise6_Nguyen_MinhApp.swift */,
 				877C7ED72ADC5E950052CF8A /* ContentView.swift */,
 				877C7EE72ADC640C0052CF8A /* TreasureMapView.swift */,
-				877C7EE52ADC62230052CF8A /* DataModel.swift */,
 				877C7ED92ADC5E960052CF8A /* Assets.xcassets */,
 				877C7EDB2ADC5E960052CF8A /* Preview Content */,
 			);
@@ -83,6 +82,7 @@
 			children = (
 				877C7EE32ADC61110052CF8A /* TreasuresListView.swift */,
 				877C7EEB2ADDEC6B0052CF8A /* TreasureListViewModel.swift */,
+				877C7EE52ADC62230052CF8A /* DataModel.swift */,
 			);
 			path = TreasureList;
 			sourceTree = "<group>";
