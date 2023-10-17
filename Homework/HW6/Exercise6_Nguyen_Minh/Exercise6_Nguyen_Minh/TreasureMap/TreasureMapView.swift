@@ -28,14 +28,12 @@ struct TreasureMapView: View {
 
     var treasure: Treasure
     @State private var places: [Place]
-
     @State private var selectedItem: String?
     @State private var nextPlaceID: Int = 1
     @State private var placemark: CLPlacemark?
     @State private var longPressLocation = CGPoint.zero
     @State private var cameraPosition: MapCameraPosition
     @State private var placeSubtitle: String = ""
-
 
     init(treasure: Treasure) {
         self.treasure = treasure
@@ -57,10 +55,8 @@ struct TreasureMapView: View {
                     longPressLocation = drag?.location ?? .zero
                     let newPin: CLLocationCoordinate2D = reader.convert(longPressLocation, from: .local)!
                     let newPlace = Place(id: "\(nextPlaceID)", name: "Pin #\(nextPlaceID)", coordinate: newPin)
-                        print(places.count)
                     places.append(newPlace)
                     nextPlaceID += 1
-                        print(places.count)
                 default:
                     break
                 }
@@ -79,9 +75,9 @@ struct TreasureMapView: View {
                 }
             }
             .gesture(longPressDrag(reader: reader))
-//            .onAppear {
-//                fetchPlacemark(for: treasure)
-//            }
+            .onAppear {
+                fetchPlacemark(for: treasure)
+            }
         }
     }
 
