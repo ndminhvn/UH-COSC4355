@@ -67,11 +67,17 @@ struct TreasureMapView: View {
         MapReader { reader in
             Map(position: $cameraPosition, interactionModes: .all, selection: $selectedItem) {
                 ForEach(places, id: \.id) { place in
-                    Marker(coordinate: place.coordinate, label: {
-                        Text(place.name)
+                    if place.name.count > 6 {
+                        Marker(coordinate: place.coordinate, label: {
+                            Text(place.name)
                             + Text("\n\(placeSubtitle)")
+                        }).tag(place.id)
+                    } else {
+                        Marker(coordinate: place.coordinate, label: {
+                            Text(place.name)
+                        }).tag(place.id)
                     }
-                    ).tag(place.id)
+                    
                 }
             }
             .gesture(longPressDrag(reader: reader))
