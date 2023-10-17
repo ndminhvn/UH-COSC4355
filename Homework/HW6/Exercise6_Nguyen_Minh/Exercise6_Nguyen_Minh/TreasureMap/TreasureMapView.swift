@@ -8,6 +8,12 @@
 import MapKit
 import SwiftUI
 
+struct Place: Identifiable {
+    let id: String
+    let name: String
+    let coordinate: CLLocationCoordinate2D
+}
+
 struct TreasureMapView: View {
     @Environment(\.verticalSizeClass) var verticalSizeClass
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
@@ -21,64 +27,62 @@ struct TreasureMapView: View {
     }
 
     var treasure: Treasure
+    @State private var places: [Place]
 
-    @State private var region: MKCoordinateRegion
+    @State private var selectedItem: String?
+    @State private var nextPlaceID: Int = 1
     @State private var placemark: CLPlacemark?
-    @State private var isPinSelected: Bool = false
-    @State private var annotationSubTitle: String = ""
+    @State private var longPressLocation = CGPoint.zero
+    @State private var cameraPosition: MapCameraPosition
+    @State private var placeSubtitle: String = ""
+
 
     init(treasure: Treasure) {
         self.treasure = treasure
+        let place = Place(id: String(treasure.id), name: treasure.hint, coordinate: treasure.coordinate)
 
-        // Initialize the region based on treasure's coordinates
-        _region = State(initialValue: MKCoordinateRegion(
-            center: treasure.coordinate,
-            span: MKCoordinateSpan(
-                latitudeDelta: 0.03,
-                longitudeDelta: 0.03)
+        _cameraPosition = State(initialValue: .camera(
+            MapCamera(centerCoordinate: treasure.coordinate, distance: 10000)
         ))
+
+        _places = State(initialValue: [place])
+    }
+
+    func longPressDrag(reader: MapProxy) -> some Gesture {
+        LongPressGesture(minimumDuration: 0.25)
+            .sequenced(before: DragGesture(minimumDistance: 0, coordinateSpace: .local))
+            .onEnded { value in
+                switch value {
+                case .second(true, let drag):
+                    longPressLocation = drag?.location ?? .zero
+                    let newPin: CLLocationCoordinate2D = reader.convert(longPressLocation, from: .local)!
+                    let newPlace = Place(id: "\(nextPlaceID)", name: "Pin #\(nextPlaceID)", coordinate: newPin)
+                        print(places.count)
+                    places.append(newPlace)
+                    nextPlaceID += 1
+                        print(places.count)
+                default:
+                    break
+                }
+            }
     }
 
     var body: some View {
-        VStack {
-            Map(initialPosition: .region(region)) {
-                Marker(coordinate: treasure.coordinate, label: {
-                    Text(treasure.hint) +
-                    Text("\n\(placemark?.locality ?? ""), \(placemark?.administrativeArea ?? ""), \(placemark?.isoCountryCode ?? "")")
-                })
-                //            Marker(coordinate: treasure.coordinate, label: {
-                //                Text(treasure.hint) +
-                //                Text("\n\(placemark?.locality ?? ""), \(placemark?.administrativeArea ?? ""), \(placemark?.isoCountryCode ?? "")")
-                //
-                //            })
-                //            Annotation(treasure.hint, coordinate: treasure.coordinate) {
-                //                VStack {
-                //                    ZStack {
-                //                        Image("MarkerIcon")
-                //                            .resizable()
-                //                            .scaledToFit()
-                //                            .frame(width: 30)
-                //                            .shadow(color: Color.black.opacity(0.5), radius: 5, x: 0, y: 4)
-                //
-                //                        Image(systemName: "mappin")
-                //                            .foregroundColor(.white)
-                //                            .shadow(color: Color.white.opacity(0.5), radius: 10, x: 0, y: 4)
-                //                    }
-                //                    Text(annotationSubTitle)
-                //                        .font(.caption2)
-                //                }
-                //                .multilineTextAlignment(.center)
-                //                .frame(width: 130)
-                //                .onTapGesture {
-                //                    fetchPlacemark(for: treasure)
-                //                }
-                //            }
+        MapReader { reader in
+            Map(position: $cameraPosition, interactionModes: .all, selection: $selectedItem) {
+                ForEach(places, id: \.id) { place in
+                    Marker(coordinate: place.coordinate, label: {
+                        Text(place.name)
+                            + Text("\n\(placeSubtitle)")
+                    }
+                    ).tag(place.id)
+                }
             }
-            .onAppear {
-                fetchPlacemark(for: treasure)
-            }
+            .gesture(longPressDrag(reader: reader))
+//            .onAppear {
+//                fetchPlacemark(for: treasure)
+//            }
         }
-        
     }
 
     private func fetchPlacemark(for treasure: Treasure) {
@@ -89,7 +93,7 @@ struct TreasureMapView: View {
                 print("Geocoding error: \(error.localizedDescription)")
             } else if let placemark = placemarks?.first {
                 self.placemark = placemark
-                self.annotationSubTitle = "\(placemark.locality ?? ""), \(placemark.administrativeArea ?? ""), \(placemark.isoCountryCode ?? "")"
+                self.placeSubtitle = "\(placemark.locality ?? ""), \(placemark.administrativeArea ?? ""), \(placemark.isoCountryCode ?? "")"
             }
         }
     }
