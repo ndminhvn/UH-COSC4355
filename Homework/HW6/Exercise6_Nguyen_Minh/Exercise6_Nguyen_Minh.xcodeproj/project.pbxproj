@@ -16,6 +16,7 @@
 		877C7EE82ADC640C0052CF8A /* TreasureMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C7EE72ADC640C0052CF8A /* TreasureMapView.swift */; };
 		877C7EEC2ADDEC6B0052CF8A /* TreasureListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C7EEB2ADDEC6B0052CF8A /* TreasureListViewModel.swift */; };
 		877C7EEF2ADDFC3A0052CF8A /* TreasureMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C7EEE2ADDFC3A0052CF8A /* TreasureMapViewModel.swift */; };
+		877C7EF12ADE6D0B0052CF8A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C7EF02ADE6D0B0052CF8A /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		877C7EE72ADC640C0052CF8A /* TreasureMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureMapView.swift; sourceTree = "<group>"; };
 		877C7EEB2ADDEC6B0052CF8A /* TreasureListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureListViewModel.swift; sourceTree = "<group>"; };
 		877C7EEE2ADDFC3A0052CF8A /* TreasureMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureMapViewModel.swift; sourceTree = "<group>"; };
+		877C7EF02ADE6D0B0052CF8A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,8 @@
 		877C7ED42ADC5E950052CF8A /* Exercise6_Nguyen_Minh */ = {
 			isa = PBXGroup;
 			children = (
+				877C7EF22ADE6DA20052CF8A /* Main */,
 				877C7EEA2ADDEC3C0052CF8A /* TreasureList */,
-				877C7ED52ADC5E950052CF8A /* Exercise6_Nguyen_MinhApp.swift */,
-				877C7ED72ADC5E950052CF8A /* ContentView.swift */,
 				877C7EED2ADDF9E60052CF8A /* TreasureMap */,
 				877C7ED92ADC5E960052CF8A /* Assets.xcassets */,
 				877C7EDB2ADC5E960052CF8A /* Preview Content */,
@@ -96,6 +97,16 @@
 				877C7EEE2ADDFC3A0052CF8A /* TreasureMapViewModel.swift */,
 			);
 			path = TreasureMap;
+			sourceTree = "<group>";
+		};
+		877C7EF22ADE6DA20052CF8A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				877C7ED52ADC5E950052CF8A /* Exercise6_Nguyen_MinhApp.swift */,
+				877C7ED72ADC5E950052CF8A /* ContentView.swift */,
+				877C7EF02ADE6D0B0052CF8A /* SplashView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				877C7EEF2ADDFC3A0052CF8A /* TreasureMapViewModel.swift in Sources */,
+				877C7EF12ADE6D0B0052CF8A /* SplashView.swift in Sources */,
 				877C7ED82ADC5E950052CF8A /* ContentView.swift in Sources */,
 				877C7EE62ADC62230052CF8A /* DataModel.swift in Sources */,
 				877C7EE82ADC640C0052CF8A /* TreasureMapView.swift in Sources */,
