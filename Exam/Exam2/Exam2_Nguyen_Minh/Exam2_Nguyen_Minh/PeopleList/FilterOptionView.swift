@@ -37,9 +37,10 @@ struct FilterOptionView: View {
                 }
             }
         }
+        .background(Color(red: 241/255, green: 232/255, blue: 237/255))
     }
 }
 
-//#Preview {
+// #Preview {
 //    FilterOptionView()
-//}
+// }
