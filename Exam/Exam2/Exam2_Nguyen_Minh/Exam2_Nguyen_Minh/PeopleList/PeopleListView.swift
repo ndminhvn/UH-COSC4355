@@ -9,23 +9,26 @@ import SwiftUI
 
 struct PeopleListView: View {
     @ObservedObject var peopleListVM = PeopleListViewModel()
-    
+
     var body: some View {
         NavigationStack {
-            VStack {
-                Text("\(peopleListVM.filterType)")
-                    .font(.system(size: 45))
-                    .bold()
-                    .foregroundStyle(Color.accentColor)
-                Text("somewhere near me")
-                    .font(.system(size: 35))
-                    .bold()
-                    .multilineTextAlignment(.center)
-                    .foregroundStyle(Color(red: 0, green: 92/255, blue: 139/255))
+            NavigationLink(destination: FilterOptionView(peopleListVM: peopleListVM)) {
+                VStack {
+                    Text("\(peopleListVM.filterType)")
+
+                        .bold()
+                        .foregroundStyle(Color.accentColor)
+                    Text("somewhere near me")
+
+                        .bold()
+                        .multilineTextAlignment(.center)
+                        .foregroundStyle(Color(red: 0, green: 92 / 255, blue: 139 / 255))
+                }
+                .font(.system(size: 45))
+                .padding([.horizontal])
             }
-            .frame(width: 300)
             List {
-                ForEach(peopleListVM.people, id: \.id) { person in
+                ForEach(peopleListVM.filteredPeople(byType: peopleListVM.filterType), id: \.id) { person in
                     NavigationLink(destination: DetailView(person: person)) {
                         HStack {
                             Text(person.name)
@@ -35,7 +38,7 @@ struct PeopleListView: View {
                                 .font(.system(size: 15))
                         }
                         .bold()
-                        .foregroundStyle(Color(red: 0, green: 92/255, blue: 139/255))
+                        .foregroundStyle(Color(red: 0, green: 92 / 255, blue: 139 / 255))
                     }
                 }
             }

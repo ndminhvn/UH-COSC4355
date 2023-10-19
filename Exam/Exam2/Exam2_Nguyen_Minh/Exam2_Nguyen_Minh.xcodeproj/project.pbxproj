@@ -16,6 +16,7 @@
 		875FBF322AE1DA8400A1B333 /* PeopleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FBF312AE1DA8400A1B333 /* PeopleListViewModel.swift */; };
 		875FBF362AE1DE7700A1B333 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FBF352AE1DE7700A1B333 /* DetailView.swift */; };
 		875FBF382AE1E12E00A1B333 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FBF372AE1E12E00A1B333 /* MapView.swift */; };
+		87D1F8642AE1E52E00B53B1D /* FilterOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1F8632AE1E52E00B53B1D /* FilterOptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		875FBF312AE1DA8400A1B333 /* PeopleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewModel.swift; sourceTree = "<group>"; };
 		875FBF352AE1DE7700A1B333 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		875FBF372AE1E12E00A1B333 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		87D1F8632AE1E52E00B53B1D /* FilterOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				875FBF312AE1DA8400A1B333 /* PeopleListViewModel.swift */,
 				875FBF2F2AE1DA7200A1B333 /* PeopleListView.swift */,
 				875FBF2B2AE1DA0100A1B333 /* DataModel.swift */,
+				87D1F8632AE1E52E00B53B1D /* FilterOptionView.swift */,
 			);
 			path = PeopleList;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				875FBF382AE1E12E00A1B333 /* MapView.swift in Sources */,
 				875FBF202AE1D9E100A1B333 /* ContentView.swift in Sources */,
 				875FBF362AE1DE7700A1B333 /* DetailView.swift in Sources */,
+				87D1F8642AE1E52E00B53B1D /* FilterOptionView.swift in Sources */,
 				875FBF1E2AE1D9E100A1B333 /* Exam2_Nguyen_MinhApp.swift in Sources */,
 				875FBF322AE1DA8400A1B333 /* PeopleListViewModel.swift in Sources */,
 				875FBF2C2AE1DA0100A1B333 /* DataModel.swift in Sources */,
