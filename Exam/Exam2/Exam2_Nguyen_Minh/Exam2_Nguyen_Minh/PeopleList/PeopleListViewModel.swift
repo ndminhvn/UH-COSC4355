@@ -17,10 +17,17 @@ class PeopleListViewModel: ObservableObject {
     }
 
     func filteredPeople(byType type: String) -> [Person] {
+        var filteredList: [Person]
+        
         if type == "Everyone" {
-            return people
+            filteredList = people
+        } else {
+            filteredList = people.filter { $0.type == type }
         }
-        return people.filter { $0.type == type }
+        
+        filteredList.sort { $0.name < $1.name }
+        
+        return filteredList
     }
 
     func loadData() async {
