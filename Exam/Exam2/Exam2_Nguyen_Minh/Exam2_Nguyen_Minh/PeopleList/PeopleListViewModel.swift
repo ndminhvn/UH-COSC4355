@@ -40,13 +40,4 @@ class PeopleListViewModel: ObservableObject {
             print("Error loading data: \(error.localizedDescription)")
         }
     }
-
-    //    var filteredTreasures: [Person] {
-    //        guard !searchText.isEmpty else { return people }
-    //        return people.filter { person in
-    //            person.type.lowercased().contains(searchText.lowercased())
-    //            || person.owner.lowercased().contains(searchText.lowercased())
-    //            || String(person.id).lowercased().contains(searchText.lowercased())
-    //        }
-    //    }
 }

@@ -18,12 +18,11 @@ struct FilterOptionView: View {
                     .font(.system(size: 45))
                     .bold()
                 Text("somewhere near me")
-                    .font(.system(size: 35))
+                    .font(.system(size: 45))
                     .bold()
                     .multilineTextAlignment(.center)
                     .foregroundStyle(Color(red: 0, green: 92 / 255, blue: 139 / 255))
             }
-            .padding([.horizontal])
             List {
                 ForEach(peopleListVM.filterOptions, id: \.self) { option in
                     Button(action: {
