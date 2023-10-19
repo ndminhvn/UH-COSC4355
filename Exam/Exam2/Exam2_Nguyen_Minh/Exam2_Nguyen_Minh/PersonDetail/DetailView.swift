@@ -34,7 +34,7 @@ struct DetailView: View {
                 Label("Details", systemImage: "info.square")
             }
             
-            MapView()
+            MapView(person: person)
                 .tabItem {
                     Label("Map", systemImage: "map")
                 }
