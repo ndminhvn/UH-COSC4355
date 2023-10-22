@@ -1,0 +1,183 @@
+Number,Abbr,Name
+101,CRW,Chancellor's Residence Wortham House
+104,P2,KUHT Fiber Optics Building
+105,TVTE,KUHT Telephone Equipment
+106,TV,Texas Learning & Computational Center Annex
+108,P1,Cullen Annex Laboratory
+111,DYN,Dynamometer Test Laboratory
+115,OFGR,Office of Governmental Relations
+116,ACT,"Safety, Human Factors & Ergonomic Laboratory"
+117,TVFB,KUHT TV at Fort Bend - Tower
+118,WRCH,Wortham Residence Coach House
+119,ACTA,Texas Manufacturing Assistance Center
+120,UHFB,Albert and Mamie George Building
+121,FBA2,Brazos Hall
+122,UBL,University Branch Library (UHS-Sugar Land)
+122,KAB1,Katy Academic Building
+125,WHS,Wortham House Storage
+126,SA1,Sugar Land Annex 1
+127,SA2,Sugar Land Annex 2
+128,SA3,Sugar Land Annex 3
+129,SLAB1,Sugar Land Academic Building
+199,CRSA,Clinical Research Services Annex
+400,CSS,Cougar Sub-Station
+401,ERP1,Technology Bridge 1
+402,ERP2,Technology Bridge 2
+403,ERP3,Technology Bridge 3
+404,ERP4,Technology Bridge 4 Conference & Research Building
+405,ERP5,Technology Bridge 5
+406,ERP6,Technology Bridge 6
+407,ERP7,Technology Bridge 7
+408,ERP8,Technology Bridge 8
+409,ERP9,Technology Bridge 9 ConocoPhillips Petroleum Engineering Building
+410,ERP10,Technology Bridge 10
+411,ERP11,Technology Bridge 11
+413,ERP13,Technology Bridge 13
+414,ERP14,Technology Bridge 14
+415,ERP15,Technology Bridge 15 Energy Device Fabrication Lab
+419,ERPA,Technology Bridge Annex
+420,ERP20,Technology Bridge Storage
+475,,Softball Batting Facility
+0483*,HBS2,Health 2* (Floors 1 & 2)
+0483*,HBSB2,Health 2* (Floors 3 through 7)
+0483*,LSCC,Health 2* - Lone Star Circle of Care
+484,ERB,Agrawal Engineering Research Building
+485,STAD,TDECU Stadium
+486,ATL,Atmospheric Testing Laboratory
+487,UCN,Student Center North
+488,SCP1,Central Plant Satellite
+489,KUHA2,KUHA - Renters Building
+490,WCSG,Welcome Center Student Garage
+491,KUHA,KUHA - Transmitter Building
+492,SST,Cougar Softball Stadium Ticket Booth
+493,SS,Cougar Softball Stadium
+494,AAA,Agnes Arnold Auditorium
+495,CPH,Cougar Place
+496,CV2,Cougar Village 2
+497,CW,Cougar Woods Dining Hall
+498,DTF,Bulk Fueling Diesel Tank Farm
+499,CBB,Classroom and Business Building
+500,BOA,Bayou Oaks Apartments
+502,S,Science Building
+503,T,Technology Annex
+504,CCC,Child Care Center
+505,JDA,J. Davis Armistead
+506,COM,Jack J. Valenti School of Communication
+507,WT,Cynthia Woods Mitchell Center for the Arts/Wortham Theatre
+508,T2,College of Technology Building
+509,L,M. D. Anderson Library
+513,INF2,Visitor Information Booth 2
+514,EPS2,Fire & Life Safety - Storage
+515,PP,Central Power Plant
+516,E,Ezekiel W. Cullen
+517,A,Cullen Performance Hall
+518,CLA,University Lofts Apartments
+519,UHPD,Department of Public Safety - UH Police
+520,MSM,Rebecca & John J. Moores School of Music
+521,GS,Grounds Storage Building
+522,CRWC,Campus Recreation & Wellness Center
+523,AGL,Science & Engineering Annex
+524,SSC,Student Service Center 1
+526,SS2,Student Service Center 2
+527,EPS3,EHRM1
+528,MH,LeRoy & Lucile Melcher Hall
+529,SEC,Science & Engineering Classroom Building
+531,HP,Fertitta Center
+532,GAR,Susanna Garrison Gymnasium
+533,MEL,Melcher Gymnasium/Charter School
+534,H,Fred J. Heyne
+535,EPS1,EHRM2
+536,CPB,LeRoy & Lucile Melcher Center for Public Broadcasting
+537,BL,Bates Law
+538,TU2,Teaching Unit 2 Building
+539,KH,Max Krost Hall
+540,LL,John M. O'Quinn Law Library
+541,UTS,Utility Tunnel System
+542,SPA,South Park Annex
+543,ARC,Gerald D. Hines College of Architecture
+544,CEMO,Michael J. Cemo Hall
+545,SERC,Science & Engineering Research Center
+546,EPG,East Parking Garage
+547,PGH,Philip Guthrie Hoffman Hall
+548,AMB,Athletics Maintenance Building
+549,SW,Graduate College of Social Work
+550,SR,Science and Research 1
+551,SR2,Science and Research 2
+552,BKD,Burdette Keeland Jr. Design & Exploration Center
+0553*,WC,Welcome Center Parking Garage*
+560,UPD,UH-DPS Parking Enforcement
+561,CRWA,CRWC Annex
+562,ADB,A. D. Bruce Religion Center
+563,CV,Cougar Village
+564,F,"Lamar Fleming, Jr."
+565,UC,Student Center South
+567,UCS,Student Center Satellite
+568,CSD,Justin Dart Jr. Center for Students with DisABILITIES
+569,CULLO,Cullen Oaks Apartments
+570,BATC,Athletics Batting Cage
+572,GSS,General Services Storage Building
+573,ALUM,Alumni Center
+574,ATH2,Athletic Center
+575,CO,Cambridge Oaks Apartments
+576,STL,Science Teaching Laboratory Building
+578,AH,Agnes Arnold Hall
+579,D,Cullen College of Engineering 1
+580,D2,Engineering Lecture Hall
+581,D3,Cullen College of Engineering 2
+582,BF,Cougar Baseball Field
+583,BFT,Cougar Baseball Field Ticket Booth
+584,MR,Moody Towers Residence Halls
+0584*,MR,Moody Dining Commons
+585,GEN,General Services Building
+0586*,CAM,Isabel C. Cameron*
+587,FH,Stephen Power Farish Hall
+588,M,Charles F. McElhinney Hall
+589,FA,Fine Arts Building
+590,CHC,Conrad Hilton College of Hotel & Restaurant Management
+591,INF,Visitor Information Booth 1
+592,HBS,Health 1
+593,HSC,University of Houston Science Center
+596,CC,Computing Center
+0597*,SPG,Stadium Parking Garage*
+598,CRS,Clinical Research Services Center
+599,CLTF,Carl Lewis International Track & Field Complex
+701,PHA,College of Pharmacy Texas Medical Center
+702,ABC,KUHF Transmitter Tower - ABC
+703,KMJQ,KMJQ/KUHT Transmitter Building
+705,NWC,Northwest Campus
+706,FB1,Small Business Development Center - Rosenberg
+709,BV,Small Business Development Center - Bryan
+710,SBD,Small Business Development Center
+711,ROCK,Rockwood House
+713,CP1,Small Business Development Center - Bay City
+714,TMC2,Texas Medical Center 2
+715,NWC10,Northwest Campus 10
+720,SBD2,Small Business Development Center - League City
+750,COCM,Coastal Center Caretaker Mobile Home
+751,COEL,Coastal Center Environmental Laboratory
+752,CORL,Coastal Center Research Laboratory
+753,COES,Coastal Center Equipment Storage
+756,COIT,Coastal Center Residential IT Equipment
+757,GEOC,Geosciences Coastal Center IT Equipment
+758,CROK,Coastal Center Rock Saw Facility
+759,CRST,Coastal Center Rock Storage
+760,CGRS,Coastal Center Greenhouse Service
+800,CW,Campus Wide
+801,LEP,Lynn Eusan Park
+802,CFP,Cullen Family Plaza
+803,BMG,Dr. Barnett Memorial Garden
+804,CCG,The Cougar Community Garden
+805,MP,Meditation Pond
+806,LAG,Dena and Guy V. Lewis Azalea Garden
+807,SRG,Margaret Sharpe Antique Rose Garden
+808,TEN,Tennis Courts
+809,SF,Soccer Field
+820,SK4A,Security Kiosk Lot 4A
+821,SK9C,Security Kiosk Lot 9C
+822,SK12A,Security Kiosk Lot 12A
+823,SK41,Security Kiosk Lot 41 (ERP)
+824,SK42,Security Kiosk Lot 42 (ERP)
+129,PG5,Parking Garage #5
+482,BPF,New Basketball Practice Facility
+501,C,Roy G. Cullen
+502,S,Biology Greenhouse (Science Building)
