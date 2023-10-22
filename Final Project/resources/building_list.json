@@ -1,0 +1,912 @@
+[
+ {
+   "Number": "101",
+   "Abbr": "CRW",
+   "Name": "Chancellor's Residence Wortham House"
+ },
+ {
+   "Number": "104",
+   "Abbr": "P2",
+   "Name": "KUHT Fiber Optics Building"
+ },
+ {
+   "Number": "105",
+   "Abbr": "TVTE",
+   "Name": "KUHT Telephone Equipment"
+ },
+ {
+   "Number": "106",
+   "Abbr": "TV",
+   "Name": "Texas Learning & Computational Center Annex"
+ },
+ {
+   "Number": "108",
+   "Abbr": "P1",
+   "Name": "Cullen Annex Laboratory"
+ },
+ {
+   "Number": "111",
+   "Abbr": "DYN",
+   "Name": "Dynamometer Test Laboratory"
+ },
+ {
+   "Number": "115",
+   "Abbr": "OFGR",
+   "Name": "Office of Governmental Relations"
+ },
+ {
+   "Number": "116",
+   "Abbr": "ACT",
+   "Name": "Safety, Human Factors & Ergonomic Laboratory"
+ },
+ {
+   "Number": "117",
+   "Abbr": "TVFB",
+   "Name": "KUHT TV at Fort Bend - Tower"
+ },
+ {
+   "Number": "118",
+   "Abbr": "WRCH",
+   "Name": "Wortham Residence Coach House"
+ },
+ {
+   "Number": "119",
+   "Abbr": "ACTA",
+   "Name": "Texas Manufacturing Assistance Center"
+ },
+ {
+   "Number": "120",
+   "Abbr": "UHFB",
+   "Name": "Albert and Mamie George Building"
+ },
+ {
+   "Number": "121",
+   "Abbr": "FBA2",
+   "Name": "Brazos Hall"
+ },
+ {
+   "Number": "122",
+   "Abbr": "UBL",
+   "Name": "University Branch Library (UHS-Sugar Land)"
+ },
+ {
+   "Number": "122",
+   "Abbr": "KAB1",
+   "Name": "Katy Academic Building"
+ },
+ {
+   "Number": "125",
+   "Abbr": "WHS",
+   "Name": "Wortham House Storage"
+ },
+ {
+   "Number": "126",
+   "Abbr": "SA1",
+   "Name": "Sugar Land Annex 1"
+ },
+ {
+   "Number": "127",
+   "Abbr": "SA2",
+   "Name": "Sugar Land Annex 2"
+ },
+ {
+   "Number": "128",
+   "Abbr": "SA3",
+   "Name": "Sugar Land Annex 3"
+ },
+ {
+   "Number": "129",
+   "Abbr": "SLAB1",
+   "Name": "Sugar Land Academic Building"
+ },
+ {
+   "Number": "199",
+   "Abbr": "CRSA",
+   "Name": "Clinical Research Services Annex"
+ },
+ {
+   "Number": "400",
+   "Abbr": "CSS",
+   "Name": "Cougar Sub-Station"
+ },
+ {
+   "Number": "401",
+   "Abbr": "ERP1",
+   "Name": "Technology Bridge 1"
+ },
+ {
+   "Number": "402",
+   "Abbr": "ERP2",
+   "Name": "Technology Bridge 2"
+ },
+ {
+   "Number": "403",
+   "Abbr": "ERP3",
+   "Name": "Technology Bridge 3"
+ },
+ {
+   "Number": "404",
+   "Abbr": "ERP4",
+   "Name": "Technology Bridge 4 Conference & Research Building"
+ },
+ {
+   "Number": "405",
+   "Abbr": "ERP5",
+   "Name": "Technology Bridge 5"
+ },
+ {
+   "Number": "406",
+   "Abbr": "ERP6",
+   "Name": "Technology Bridge 6"
+ },
+ {
+   "Number": "407",
+   "Abbr": "ERP7",
+   "Name": "Technology Bridge 7"
+ },
+ {
+   "Number": "408",
+   "Abbr": "ERP8",
+   "Name": "Technology Bridge 8"
+ },
+ {
+   "Number": "409",
+   "Abbr": "ERP9",
+   "Name": "Technology Bridge 9 ConocoPhillips Petroleum Engineering Building"
+ },
+ {
+   "Number": "410",
+   "Abbr": "ERP10",
+   "Name": "Technology Bridge 10"
+ },
+ {
+   "Number": "411",
+   "Abbr": "ERP11",
+   "Name": "Technology Bridge 11"
+ },
+ {
+   "Number": "413",
+   "Abbr": "ERP13",
+   "Name": "Technology Bridge 13"
+ },
+ {
+   "Number": "414",
+   "Abbr": "ERP14",
+   "Name": "Technology Bridge 14"
+ },
+ {
+   "Number": "415",
+   "Abbr": "ERP15",
+   "Name": "Technology Bridge 15 Energy Device Fabrication Lab"
+ },
+ {
+   "Number": "419",
+   "Abbr": "ERPA",
+   "Name": "Technology Bridge Annex"
+ },
+ {
+   "Number": "420",
+   "Abbr": "ERP20",
+   "Name": "Technology Bridge Storage"
+ },
+ {
+   "Number": "475",
+   "Abbr": "",
+   "Name": "Softball Batting Facility"
+ },
+ {
+   "Number": "0483*",
+   "Abbr": "HBS2",
+   "Name": "Health 2* (Floors 1 & 2)"
+ },
+ {
+   "Number": "0483*",
+   "Abbr": "HBSB2",
+   "Name": "Health 2* (Floors 3 through 7)"
+ },
+ {
+   "Number": "0483*",
+   "Abbr": "LSCC",
+   "Name": "Health 2* - Lone Star Circle of Care"
+ },
+ {
+   "Number": "484",
+   "Abbr": "ERB",
+   "Name": "Agrawal Engineering Research Building"
+ },
+ {
+   "Number": "485",
+   "Abbr": "STAD",
+   "Name": "TDECU Stadium"
+ },
+ {
+   "Number": "486",
+   "Abbr": "ATL",
+   "Name": "Atmospheric Testing Laboratory"
+ },
+ {
+   "Number": "487",
+   "Abbr": "UCN",
+   "Name": "Student Center North"
+ },
+ {
+   "Number": "488",
+   "Abbr": "SCP1",
+   "Name": "Central Plant Satellite"
+ },
+ {
+   "Number": "489",
+   "Abbr": "KUHA2",
+   "Name": "KUHA - Renters Building"
+ },
+ {
+   "Number": "490",
+   "Abbr": "WCSG",
+   "Name": "Welcome Center Student Garage"
+ },
+ {
+   "Number": "491",
+   "Abbr": "KUHA",
+   "Name": "KUHA - Transmitter Building"
+ },
+ {
+   "Number": "492",
+   "Abbr": "SST",
+   "Name": "Cougar Softball Stadium Ticket Booth"
+ },
+ {
+   "Number": "493",
+   "Abbr": "SS",
+   "Name": "Cougar Softball Stadium"
+ },
+ {
+   "Number": "494",
+   "Abbr": "AAA",
+   "Name": "Agnes Arnold Auditorium"
+ },
+ {
+   "Number": "495",
+   "Abbr": "CPH",
+   "Name": "Cougar Place"
+ },
+ {
+   "Number": "496",
+   "Abbr": "CV2",
+   "Name": "Cougar Village 2"
+ },
+ {
+   "Number": "497",
+   "Abbr": "CW",
+   "Name": "Cougar Woods Dining Hall"
+ },
+ {
+   "Number": "498",
+   "Abbr": "DTF",
+   "Name": "Bulk Fueling Diesel Tank Farm"
+ },
+ {
+   "Number": "499",
+   "Abbr": "CBB",
+   "Name": "Classroom and Business Building"
+ },
+ {
+   "Number": "500",
+   "Abbr": "BOA",
+   "Name": "Bayou Oaks Apartments"
+ },
+ {
+   "Number": "502",
+   "Abbr": "S",
+   "Name": "Science Building"
+ },
+ {
+   "Number": "503",
+   "Abbr": "T",
+   "Name": "Technology Annex"
+ },
+ {
+   "Number": "504",
+   "Abbr": "CCC",
+   "Name": "Child Care Center"
+ },
+ {
+   "Number": "505",
+   "Abbr": "JDA",
+   "Name": "J. Davis Armistead"
+ },
+ {
+   "Number": "506",
+   "Abbr": "COM",
+   "Name": "Jack J. Valenti School of Communication"
+ },
+ {
+   "Number": "507",
+   "Abbr": "WT",
+   "Name": "Cynthia Woods Mitchell Center for the Arts/Wortham Theatre"
+ },
+ {
+   "Number": "508",
+   "Abbr": "T2",
+   "Name": "College of Technology Building"
+ },
+ {
+   "Number": "509",
+   "Abbr": "L",
+   "Name": "M. D. Anderson Library"
+ },
+ {
+   "Number": "513",
+   "Abbr": "INF2",
+   "Name": "Visitor Information Booth 2"
+ },
+ {
+   "Number": "514",
+   "Abbr": "EPS2",
+   "Name": "Fire & Life Safety - Storage"
+ },
+ {
+   "Number": "515",
+   "Abbr": "PP",
+   "Name": "Central Power Plant"
+ },
+ {
+   "Number": "516",
+   "Abbr": "E",
+   "Name": "Ezekiel W. Cullen"
+ },
+ {
+   "Number": "517",
+   "Abbr": "A",
+   "Name": "Cullen Performance Hall"
+ },
+ {
+   "Number": "518",
+   "Abbr": "CLA",
+   "Name": "University Lofts Apartments"
+ },
+ {
+   "Number": "519",
+   "Abbr": "UHPD",
+   "Name": "Department of Public Safety - UH Police"
+ },
+ {
+   "Number": "520",
+   "Abbr": "MSM",
+   "Name": "Rebecca & John J. Moores School of Music"
+ },
+ {
+   "Number": "521",
+   "Abbr": "GS",
+   "Name": "Grounds Storage Building"
+ },
+ {
+   "Number": "522",
+   "Abbr": "CRWC",
+   "Name": "Campus Recreation & Wellness Center"
+ },
+ {
+   "Number": "523",
+   "Abbr": "AGL",
+   "Name": "Science & Engineering Annex"
+ },
+ {
+   "Number": "524",
+   "Abbr": "SSC",
+   "Name": "Student Service Center 1"
+ },
+ {
+   "Number": "526",
+   "Abbr": "SS2",
+   "Name": "Student Service Center 2"
+ },
+ {
+   "Number": "527",
+   "Abbr": "EPS3",
+   "Name": "EHRM1"
+ },
+ {
+   "Number": "528",
+   "Abbr": "MH",
+   "Name": "LeRoy & Lucile Melcher Hall"
+ },
+ {
+   "Number": "529",
+   "Abbr": "SEC",
+   "Name": "Science & Engineering Classroom Building"
+ },
+ {
+   "Number": "531",
+   "Abbr": "HP",
+   "Name": "Fertitta Center"
+ },
+ {
+   "Number": "532",
+   "Abbr": "GAR",
+   "Name": "Susanna Garrison Gymnasium"
+ },
+ {
+   "Number": "533",
+   "Abbr": "MEL",
+   "Name": "Melcher Gymnasium/Charter School"
+ },
+ {
+   "Number": "534",
+   "Abbr": "H",
+   "Name": "Fred J. Heyne"
+ },
+ {
+   "Number": "535",
+   "Abbr": "EPS1",
+   "Name": "EHRM2"
+ },
+ {
+   "Number": "536",
+   "Abbr": "CPB",
+   "Name": "LeRoy & Lucile Melcher Center for Public Broadcasting"
+ },
+ {
+   "Number": "537",
+   "Abbr": "BL",
+   "Name": "Bates Law"
+ },
+ {
+   "Number": "538",
+   "Abbr": "TU2",
+   "Name": "Teaching Unit 2 Building"
+ },
+ {
+   "Number": "539",
+   "Abbr": "KH",
+   "Name": "Max Krost Hall"
+ },
+ {
+   "Number": "540",
+   "Abbr": "LL",
+   "Name": "John M. O'Quinn Law Library"
+ },
+ {
+   "Number": "541",
+   "Abbr": "UTS",
+   "Name": "Utility Tunnel System"
+ },
+ {
+   "Number": "542",
+   "Abbr": "SPA",
+   "Name": "South Park Annex"
+ },
+ {
+   "Number": "543",
+   "Abbr": "ARC",
+   "Name": "Gerald D. Hines College of Architecture"
+ },
+ {
+   "Number": "544",
+   "Abbr": "CEMO",
+   "Name": "Michael J. Cemo Hall"
+ },
+ {
+   "Number": "545",
+   "Abbr": "SERC",
+   "Name": "Science & Engineering Research Center"
+ },
+ {
+   "Number": "546",
+   "Abbr": "EPG",
+   "Name": "East Parking Garage"
+ },
+ {
+   "Number": "547",
+   "Abbr": "PGH",
+   "Name": "Philip Guthrie Hoffman Hall"
+ },
+ {
+   "Number": "548",
+   "Abbr": "AMB",
+   "Name": "Athletics Maintenance Building"
+ },
+ {
+   "Number": "549",
+   "Abbr": "SW",
+   "Name": "Graduate College of Social Work"
+ },
+ {
+   "Number": "550",
+   "Abbr": "SR",
+   "Name": "Science and Research 1"
+ },
+ {
+   "Number": "551",
+   "Abbr": "SR2",
+   "Name": "Science and Research 2"
+ },
+ {
+   "Number": "552",
+   "Abbr": "BKD",
+   "Name": "Burdette Keeland Jr. Design & Exploration Center"
+ },
+ {
+   "Number": "0553*",
+   "Abbr": "WC",
+   "Name": "Welcome Center Parking Garage*"
+ },
+ {
+   "Number": "560",
+   "Abbr": "UPD",
+   "Name": "UH-DPS Parking Enforcement"
+ },
+ {
+   "Number": "561",
+   "Abbr": "CRWA",
+   "Name": "CRWC Annex"
+ },
+ {
+   "Number": "562",
+   "Abbr": "ADB",
+   "Name": "A. D. Bruce Religion Center"
+ },
+ {
+   "Number": "563",
+   "Abbr": "CV",
+   "Name": "Cougar Village"
+ },
+ {
+   "Number": "564",
+   "Abbr": "F",
+   "Name": "Lamar Fleming, Jr."
+ },
+ {
+   "Number": "565",
+   "Abbr": "UC",
+   "Name": "Student Center South"
+ },
+ {
+   "Number": "567",
+   "Abbr": "UCS",
+   "Name": "Student Center Satellite"
+ },
+ {
+   "Number": "568",
+   "Abbr": "CSD",
+   "Name": "Justin Dart Jr. Center for Students with DisABILITIES"
+ },
+ {
+   "Number": "569",
+   "Abbr": "CULLO",
+   "Name": "Cullen Oaks Apartments"
+ },
+ {
+   "Number": "570",
+   "Abbr": "BATC",
+   "Name": "Athletics Batting Cage"
+ },
+ {
+   "Number": "572",
+   "Abbr": "GSS",
+   "Name": "General Services Storage Building"
+ },
+ {
+   "Number": "573",
+   "Abbr": "ALUM",
+   "Name": "Alumni Center"
+ },
+ {
+   "Number": "574",
+   "Abbr": "ATH2",
+   "Name": "Athletic Center"
+ },
+ {
+   "Number": "575",
+   "Abbr": "CO",
+   "Name": "Cambridge Oaks Apartments"
+ },
+ {
+   "Number": "576",
+   "Abbr": "STL",
+   "Name": "Science Teaching Laboratory Building"
+ },
+ {
+   "Number": "578",
+   "Abbr": "AH",
+   "Name": "Agnes Arnold Hall"
+ },
+ {
+   "Number": "579",
+   "Abbr": "D",
+   "Name": "Cullen College of Engineering 1"
+ },
+ {
+   "Number": "580",
+   "Abbr": "D2",
+   "Name": "Engineering Lecture Hall"
+ },
+ {
+   "Number": "581",
+   "Abbr": "D3",
+   "Name": "Cullen College of Engineering 2"
+ },
+ {
+   "Number": "582",
+   "Abbr": "BF",
+   "Name": "Cougar Baseball Field"
+ },
+ {
+   "Number": "583",
+   "Abbr": "BFT",
+   "Name": "Cougar Baseball Field Ticket Booth"
+ },
+ {
+   "Number": "584",
+   "Abbr": "MR",
+   "Name": "Moody Towers Residence Halls"
+ },
+ {
+   "Number": "0584*",
+   "Abbr": "MR",
+   "Name": "Moody Dining Commons"
+ },
+ {
+   "Number": "585",
+   "Abbr": "GEN",
+   "Name": "General Services Building"
+ },
+ {
+   "Number": "0586*",
+   "Abbr": "CAM",
+   "Name": "Isabel C. Cameron*"
+ },
+ {
+   "Number": "587",
+   "Abbr": "FH",
+   "Name": "Stephen Power Farish Hall"
+ },
+ {
+   "Number": "588",
+   "Abbr": "M",
+   "Name": "Charles F. McElhinney Hall"
+ },
+ {
+   "Number": "589",
+   "Abbr": "FA",
+   "Name": "Fine Arts Building"
+ },
+ {
+   "Number": "590",
+   "Abbr": "CHC",
+   "Name": "Conrad Hilton College of Hotel & Restaurant Management"
+ },
+ {
+   "Number": "591",
+   "Abbr": "INF",
+   "Name": "Visitor Information Booth 1"
+ },
+ {
+   "Number": "592",
+   "Abbr": "HBS",
+   "Name": "Health 1"
+ },
+ {
+   "Number": "593",
+   "Abbr": "HSC",
+   "Name": "University of Houston Science Center"
+ },
+ {
+   "Number": "596",
+   "Abbr": "CC",
+   "Name": "Computing Center"
+ },
+ {
+   "Number": "0597*",
+   "Abbr": "SPG",
+   "Name": "Stadium Parking Garage*"
+ },
+ {
+   "Number": "598",
+   "Abbr": "CRS",
+   "Name": "Clinical Research Services Center"
+ },
+ {
+   "Number": "599",
+   "Abbr": "CLTF",
+   "Name": "Carl Lewis International Track & Field Complex"
+ },
+ {
+   "Number": "701",
+   "Abbr": "PHA",
+   "Name": "College of Pharmacy Texas Medical Center"
+ },
+ {
+   "Number": "702",
+   "Abbr": "ABC",
+   "Name": "KUHF Transmitter Tower - ABC"
+ },
+ {
+   "Number": "703",
+   "Abbr": "KMJQ",
+   "Name": "KMJQ/KUHT Transmitter Building"
+ },
+ {
+   "Number": "705",
+   "Abbr": "NWC",
+   "Name": "Northwest Campus"
+ },
+ {
+   "Number": "706",
+   "Abbr": "FB1",
+   "Name": "Small Business Development Center - Rosenberg"
+ },
+ {
+   "Number": "709",
+   "Abbr": "BV",
+   "Name": "Small Business Development Center - Bryan"
+ },
+ {
+   "Number": "710",
+   "Abbr": "SBD",
+   "Name": "Small Business Development Center"
+ },
+ {
+   "Number": "711",
+   "Abbr": "ROCK",
+   "Name": "Rockwood House"
+ },
+ {
+   "Number": "713",
+   "Abbr": "CP1",
+   "Name": "Small Business Development Center - Bay City"
+ },
+ {
+   "Number": "714",
+   "Abbr": "TMC2",
+   "Name": "Texas Medical Center 2"
+ },
+ {
+   "Number": "715",
+   "Abbr": "NWC10",
+   "Name": "Northwest Campus 10"
+ },
+ {
+   "Number": "720",
+   "Abbr": "SBD2",
+   "Name": "Small Business Development Center - League City"
+ },
+ {
+   "Number": "750",
+   "Abbr": "COCM",
+   "Name": "Coastal Center Caretaker Mobile Home"
+ },
+ {
+   "Number": "751",
+   "Abbr": "COEL",
+   "Name": "Coastal Center Environmental Laboratory"
+ },
+ {
+   "Number": "752",
+   "Abbr": "CORL",
+   "Name": "Coastal Center Research Laboratory"
+ },
+ {
+   "Number": "753",
+   "Abbr": "COES",
+   "Name": "Coastal Center Equipment Storage"
+ },
+ {
+   "Number": "756",
+   "Abbr": "COIT",
+   "Name": "Coastal Center Residential IT Equipment"
+ },
+ {
+   "Number": "757",
+   "Abbr": "GEOC",
+   "Name": "Geosciences Coastal Center IT Equipment"
+ },
+ {
+   "Number": "758",
+   "Abbr": "CROK",
+   "Name": "Coastal Center Rock Saw Facility"
+ },
+ {
+   "Number": "759",
+   "Abbr": "CRST",
+   "Name": "Coastal Center Rock Storage"
+ },
+ {
+   "Number": "760",
+   "Abbr": "CGRS",
+   "Name": "Coastal Center Greenhouse Service"
+ },
+ {
+   "Number": "800",
+   "Abbr": "CW",
+   "Name": "Campus Wide"
+ },
+ {
+   "Number": "801",
+   "Abbr": "LEP",
+   "Name": "Lynn Eusan Park"
+ },
+ {
+   "Number": "802",
+   "Abbr": "CFP",
+   "Name": "Cullen Family Plaza"
+ },
+ {
+   "Number": "803",
+   "Abbr": "BMG",
+   "Name": "Dr. Barnett Memorial Garden"
+ },
+ {
+   "Number": "804",
+   "Abbr": "CCG",
+   "Name": "The Cougar Community Garden"
+ },
+ {
+   "Number": "805",
+   "Abbr": "MP",
+   "Name": "Meditation Pond"
+ },
+ {
+   "Number": "806",
+   "Abbr": "LAG",
+   "Name": "Dena and Guy V. Lewis Azalea Garden"
+ },
+ {
+   "Number": "807",
+   "Abbr": "SRG",
+   "Name": "Margaret Sharpe Antique Rose Garden"
+ },
+ {
+   "Number": "808",
+   "Abbr": "TEN",
+   "Name": "Tennis Courts"
+ },
+ {
+   "Number": "809",
+   "Abbr": "SF",
+   "Name": "Soccer Field"
+ },
+ {
+   "Number": "820",
+   "Abbr": "SK4A",
+   "Name": "Security Kiosk Lot 4A"
+ },
+ {
+   "Number": "821",
+   "Abbr": "SK9C",
+   "Name": "Security Kiosk Lot 9C"
+ },
+ {
+   "Number": "822",
+   "Abbr": "SK12A",
+   "Name": "Security Kiosk Lot 12A"
+ },
+ {
+   "Number": "823",
+   "Abbr": "SK41",
+   "Name": "Security Kiosk Lot 41 (ERP)"
+ },
+ {
+   "Number": "824",
+   "Abbr": "SK42",
+   "Name": "Security Kiosk Lot 42 (ERP)"
+ },
+ {
+   "Number": "129",
+   "Abbr": "PG5",
+   "Name": "Parking Garage #5"
+ },
+ {
+   "Number": "482",
+   "Abbr": "BPF",
+   "Name": "New Basketball Practice Facility"
+ },
+ {
+   "Number": "501",
+   "Abbr": "C",
+   "Name": "Roy G. Cullen"
+ },
+ {
+   "Number": "502",
+   "Abbr": "S",
+   "Name": "Biology Greenhouse (Science Building)"
+ }
+]
