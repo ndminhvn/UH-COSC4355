@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		877CCE122AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 877CCE112AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		877CCE172AEE306D007B71F8 /* Exercise7_Nguyen_MinhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CCE162AEE306D007B71F8 /* Exercise7_Nguyen_MinhApp.swift */; };
+		877CCE192AEE306D007B71F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CCE182AEE306D007B71F8 /* ContentView.swift */; };
+		877CCE1B2AEE306E007B71F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877CCE1A2AEE306E007B71F8 /* Assets.xcassets */; };
+		877CCE1E2AEE306E007B71F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877CCE1D2AEE306E007B71F8 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877CCE132AEE306D007B71F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877CCE052AEE306D007B71F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877CCE102AEE306D007B71F8;
+			remoteInfo = "Exercise7_Nguyen_Minh Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		877CCE242AEE306E007B71F8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				877CCE122AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		877CCE0B2AEE306D007B71F8 /* Exercise7_Nguyen_Minh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise7_Nguyen_Minh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877CCE112AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise7_Nguyen_Minh Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877CCE162AEE306D007B71F8 /* Exercise7_Nguyen_MinhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise7_Nguyen_MinhApp.swift; sourceTree = "<group>"; };
+		877CCE182AEE306D007B71F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		877CCE1A2AEE306E007B71F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		877CCE1D2AEE306E007B71F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		877CCE282AEE3283007B71F8 /* Exercise7_Nguyen_Minh Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Exercise7_Nguyen_Minh Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877CCE0E2AEE306D007B71F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877CCE042AEE306D007B71F8 = {
+			isa = PBXGroup;
+			children = (
+				877CCE152AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App */,
+				877CCE0C2AEE306D007B71F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877CCE0C2AEE306D007B71F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877CCE0B2AEE306D007B71F8 /* Exercise7_Nguyen_Minh.app */,
+				877CCE112AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877CCE152AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				877CCE282AEE3283007B71F8 /* Exercise7_Nguyen_Minh Watch App.entitlements */,
+				877CCE162AEE306D007B71F8 /* Exercise7_Nguyen_MinhApp.swift */,
+				877CCE182AEE306D007B71F8 /* ContentView.swift */,
+				877CCE1A2AEE306E007B71F8 /* Assets.xcassets */,
+				877CCE1C2AEE306E007B71F8 /* Preview Content */,
+			);
+			path = "Exercise7_Nguyen_Minh Watch App";
+			sourceTree = "<group>";
+		};
+		877CCE1C2AEE306E007B71F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				877CCE1D2AEE306E007B71F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877CCE0A2AEE306D007B71F8 /* Exercise7_Nguyen_Minh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877CCE252AEE306E007B71F8 /* Build configuration list for PBXNativeTarget "Exercise7_Nguyen_Minh" */;
+			buildPhases = (
+				877CCE092AEE306D007B71F8 /* Resources */,
+				877CCE242AEE306E007B71F8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877CCE142AEE306D007B71F8 /* PBXTargetDependency */,
+			);
+			name = Exercise7_Nguyen_Minh;
+			productName = Exercise7_Nguyen_Minh;
+			productReference = 877CCE0B2AEE306D007B71F8 /* Exercise7_Nguyen_Minh.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		877CCE102AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877CCE212AEE306E007B71F8 /* Build configuration list for PBXNativeTarget "Exercise7_Nguyen_Minh Watch App" */;
+			buildPhases = (
+				877CCE0D2AEE306D007B71F8 /* Sources */,
+				877CCE0E2AEE306D007B71F8 /* Frameworks */,
+				877CCE0F2AEE306D007B71F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exercise7_Nguyen_Minh Watch App";
+			productName = "Exercise7_Nguyen_Minh Watch App";
+			productReference = 877CCE112AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877CCE052AEE306D007B71F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					877CCE0A2AEE306D007B71F8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					877CCE102AEE306D007B71F8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 877CCE082AEE306D007B71F8 /* Build configuration list for PBXProject "Exercise7_Nguyen_Minh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877CCE042AEE306D007B71F8;
+			productRefGroup = 877CCE0C2AEE306D007B71F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877CCE0A2AEE306D007B71F8 /* Exercise7_Nguyen_Minh */,
+				877CCE102AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877CCE092AEE306D007B71F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877CCE0F2AEE306D007B71F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877CCE1E2AEE306E007B71F8 /* Preview Assets.xcassets in Resources */,
+				877CCE1B2AEE306E007B71F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877CCE0D2AEE306D007B71F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877CCE192AEE306D007B71F8 /* ContentView.swift in Sources */,
+				877CCE172AEE306D007B71F8 /* Exercise7_Nguyen_MinhApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877CCE142AEE306D007B71F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877CCE102AEE306D007B71F8 /* Exercise7_Nguyen_Minh Watch App */;
+			targetProxy = 877CCE132AEE306D007B71F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		877CCE1F2AEE306E007B71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		877CCE202AEE306E007B71F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		877CCE222AEE306E007B71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Exercise7_Nguyen_Minh Watch App/Exercise7_Nguyen_Minh Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise7_Nguyen_Minh Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MAS8SWPA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise7_Nguyen_Minh;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "$(PRODUCT_NAME) would like to access and update your Health data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Share health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Update health data";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MN.Exercise7-Nguyen-Minh.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		877CCE232AEE306E007B71F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Exercise7_Nguyen_Minh Watch App/Exercise7_Nguyen_Minh Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise7_Nguyen_Minh Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MAS8SWPA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise7_Nguyen_Minh;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "$(PRODUCT_NAME) would like to access and update your Health data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Share health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Update health data";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MN.Exercise7-Nguyen-Minh.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		877CCE262AEE306E007B71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MAS8SWPA3;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise7_Nguyen_Minh;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MN.Exercise7-Nguyen-Minh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		877CCE272AEE306E007B71F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MAS8SWPA3;
+				INFOPLIST_KEY_CFBundleDisplayName = Exercise7_Nguyen_Minh;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MN.Exercise7-Nguyen-Minh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877CCE082AEE306D007B71F8 /* Build configuration list for PBXProject "Exercise7_Nguyen_Minh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877CCE1F2AEE306E007B71F8 /* Debug */,
+				877CCE202AEE306E007B71F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877CCE212AEE306E007B71F8 /* Build configuration list for PBXNativeTarget "Exercise7_Nguyen_Minh Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877CCE222AEE306E007B71F8 /* Debug */,
+				877CCE232AEE306E007B71F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877CCE252AEE306E007B71F8 /* Build configuration list for PBXNativeTarget "Exercise7_Nguyen_Minh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877CCE262AEE306E007B71F8 /* Debug */,
+				877CCE272AEE306E007B71F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877CCE052AEE306D007B71F8 /* Project object */;
+}
