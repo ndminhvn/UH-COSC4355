@@ -21,7 +21,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             VStack {
-                Text("Xª ") // use fn + e
+                Text("Pª ") // use fn + e
                     .foregroundStyle(.red)
                     .font(.system(size: 36))
                     .bold()
@@ -78,7 +78,7 @@ struct ContentView: View {
             }
 
             VStack {
-                Text("Xª ") // use fn + e
+                Text("Pª ") // use fn + e
                     .foregroundStyle(.red)
                     .font(.system(size: 36))
                     .bold()
