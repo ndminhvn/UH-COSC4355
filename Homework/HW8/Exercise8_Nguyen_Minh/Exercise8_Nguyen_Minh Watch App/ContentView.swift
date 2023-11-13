@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var receivedData: [String] = []
     var icons = ["❓", "🚗", "💻", "🏠"]
     @State var iconIdx = 0
-    
+
     var body: some View {
         VStack {
             Text("Pª ") // use fn + e
@@ -20,10 +20,10 @@ struct ContentView: View {
                 .font(.system(size: 36))
                 .bold()
                 .frame(maxWidth: .infinity, alignment: .trailing)
-            
+
             Text(icons[iconIdx])
                 .font(.system(size: 80))
-            
+
             // Bleeds into TabView
             Rectangle()
                 .frame(height: 0)
@@ -32,10 +32,10 @@ struct ContentView: View {
         .background(.gray)
         .onAppear { syncService.dataReceived = Receive }
     }
-    
-    private func Receive(key: String, value: Any) -> Void {
-        self.receivedData.append("\(Date().formatted(date: .omitted, time: .standard)) - \(key):\(value)")
-        self.iconIdx = Int("\(value)") ?? 0
+
+    private func Receive(key: String, value: Any) {
+        receivedData.append("\(Date().formatted(date: .omitted, time: .standard)) - \(key):\(value)")
+        iconIdx = Int("\(value)") ?? 0
     }
 }
 
