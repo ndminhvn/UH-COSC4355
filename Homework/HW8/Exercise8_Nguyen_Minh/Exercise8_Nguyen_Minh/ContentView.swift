@@ -139,28 +139,37 @@ struct ContentView: View {
 
     func analyzeImage(text: String) -> Int {
         // limit input to first 100 symbols
-        let text = String(text.prefix(100))
-
-        let tagger = NLTagger(tagSchemes: [.sentimentScore])
-        tagger.string = text
-
-        let object = tagger.tag(at: text.startIndex, unit: .paragraph, scheme: .sentimentScore).0
-        let score = Double(object?.rawValue ?? "0") ?? 0
-
-        let outputTxt = "The input: \(text) \n is "
-//        return Int.random(in: 0..<3)
-        if score == 0 {
-            print(outputTxt + "neutral with a score of \(score)")
-            return 2
-
-        } else if score < 0 {
-            print(outputTxt + "negative with a score of \(score)")
-            return 3
-
-        } else {
-            print(outputTxt + "positive with a score of \(score)")
+        let text = String(text.prefix(100)).lowercased()
+        if text.contains("car") || text.contains("race") {
             return 1
+        } else if text.contains("library") || text.contains("notebook") || text.contains("gaming") {
+            return 2
+        } else if text.contains("church") || text.contains("buildin") {
+            return 3
+        } else {
+            return 0
         }
+
+//        let tagger = NLTagger(tagSchemes: [.sentimentScore])
+//        tagger.string = text
+//
+//        let object = tagger.tag(at: text.startIndex, unit: .paragraph, scheme: .sentimentScore).0
+//        let score = Double(object?.rawValue ?? "0") ?? 0
+//
+//        let outputTxt = "The input: \(text) \n is "
+////        return Int.random(in: 0..<3)
+//        if score == 0 {
+//            print(outputTxt + "neutral with a score of \(score)")
+//            return 2
+//
+//        } else if score < 0 {
+//            print(outputTxt + "negative with a score of \(score)")
+//            return 3
+//
+//        } else {
+//            print(outputTxt + "positive with a score of \(score)")
+//            return 1
+//        }
     }
 }
 
