@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8756A2412B01548500B9BB87 /* Exercise8_Nguyen_MinhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2402B01548500B9BB87 /* Exercise8_Nguyen_MinhApp.swift */; };
-		8756A2432B01548500B9BB87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2422B01548500B9BB87 /* ContentView.swift */; };
-		8756A2452B01548600B9BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8756A2442B01548600B9BB87 /* Assets.xcassets */; };
-		8756A2482B01548600B9BB87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8756A2472B01548600B9BB87 /* Preview Assets.xcassets */; };
-		8756A24E2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8756A24D2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8756A2532B01548600B9BB87 /* Exercise8_Nguyen_MinhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2522B01548600B9BB87 /* Exercise8_Nguyen_MinhApp.swift */; };
-		8756A2552B01548600B9BB87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2542B01548600B9BB87 /* ContentView.swift */; };
-		8756A2572B01548700B9BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8756A2562B01548700B9BB87 /* Assets.xcassets */; };
-		8756A25A2B01548700B9BB87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8756A2592B01548700B9BB87 /* Preview Assets.xcassets */; };
-		8756A2652B0154B900B9BB87 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2642B0154B900B9BB87 /* Resnet50.mlmodel */; };
-		8756A2672B01581400B9BB87 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2662B01581400B9BB87 /* ImageClassifier.swift */; };
-		8756A2692B01584200B9BB87 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2682B01584200B9BB87 /* Classifier.swift */; };
-		8756A2732B0178D700B9BB87 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2722B0178D700B9BB87 /* SyncService.swift */; };
-		8756A2742B0178D700B9BB87 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2722B0178D700B9BB87 /* SyncService.swift */; };
+		876466432B02DA2A001CD1DB /* Exercise8_Nguyen_MinhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876466422B02DA2A001CD1DB /* Exercise8_Nguyen_MinhApp.swift */; };
+		876466452B02DA2A001CD1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876466442B02DA2A001CD1DB /* ContentView.swift */; };
+		876466472B02DA2B001CD1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876466462B02DA2B001CD1DB /* Assets.xcassets */; };
+		8764664A2B02DA2B001CD1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876466492B02DA2B001CD1DB /* Preview Assets.xcassets */; };
+		876466502B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8764664F2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		876466552B02DA2B001CD1DB /* Exercise8_Nguyen_MinhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876466542B02DA2B001CD1DB /* Exercise8_Nguyen_MinhApp.swift */; };
+		876466572B02DA2B001CD1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876466562B02DA2B001CD1DB /* ContentView.swift */; };
+		876466592B02DA2C001CD1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876466582B02DA2C001CD1DB /* Assets.xcassets */; };
+		8764665C2B02DA2C001CD1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8764665B2B02DA2C001CD1DB /* Preview Assets.xcassets */; };
+		876466672B02DA54001CD1DB /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876466662B02DA54001CD1DB /* Classifier.swift */; };
+		876466692B02DA89001CD1DB /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 876466682B02DA89001CD1DB /* Resnet50.mlmodel */; };
+		8764666B2B02DAA7001CD1DB /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764666A2B02DAA7001CD1DB /* ImageClassifier.swift */; };
+		8764666E2B02DAFB001CD1DB /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764666D2B02DAFB001CD1DB /* SyncService.swift */; };
+		8764666F2B02DAFB001CD1DB /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8764666D2B02DAFB001CD1DB /* SyncService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8756A24F2B01548600B9BB87 /* PBXContainerItemProxy */ = {
+		876466512B02DA2B001CD1DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8756A2352B01548500B9BB87 /* Project object */;
+			containerPortal = 876466372B02DA2A001CD1DB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8756A24C2B01548600B9BB87;
+			remoteGlobalIDString = 8764664E2B02DA2B001CD1DB;
 			remoteInfo = "Exercise8_Nguyen_Minh Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8756A2602B01548700B9BB87 /* Embed Watch Content */ = {
+		876466622B02DA2C001CD1DB /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				8756A24E2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App.app in Embed Watch Content */,
+				876466502B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,31 +48,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8756A23D2B01548500B9BB87 /* Exercise8_Nguyen_Minh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise8_Nguyen_Minh.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8756A2402B01548500B9BB87 /* Exercise8_Nguyen_MinhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8_Nguyen_MinhApp.swift; sourceTree = "<group>"; };
-		8756A2422B01548500B9BB87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8756A2442B01548600B9BB87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8756A2472B01548600B9BB87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8756A24D2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise8_Nguyen_Minh Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8756A2522B01548600B9BB87 /* Exercise8_Nguyen_MinhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8_Nguyen_MinhApp.swift; sourceTree = "<group>"; };
-		8756A2542B01548600B9BB87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8756A2562B01548700B9BB87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8756A2592B01548700B9BB87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8756A2642B0154B900B9BB87 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
-		8756A2662B01581400B9BB87 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
-		8756A2682B01584200B9BB87 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
-		8756A2722B0178D700B9BB87 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		8764663F2B02DA2A001CD1DB /* Exercise8_Nguyen_Minh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise8_Nguyen_Minh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876466422B02DA2A001CD1DB /* Exercise8_Nguyen_MinhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8_Nguyen_MinhApp.swift; sourceTree = "<group>"; };
+		876466442B02DA2A001CD1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		876466462B02DA2B001CD1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876466492B02DA2B001CD1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8764664F2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exercise8_Nguyen_Minh Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876466542B02DA2B001CD1DB /* Exercise8_Nguyen_MinhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise8_Nguyen_MinhApp.swift; sourceTree = "<group>"; };
+		876466562B02DA2B001CD1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		876466582B02DA2C001CD1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8764665B2B02DA2C001CD1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		876466662B02DA54001CD1DB /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		876466682B02DA89001CD1DB /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		8764666A2B02DAA7001CD1DB /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		8764666D2B02DAFB001CD1DB /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8756A23A2B01548500B9BB87 /* Frameworks */ = {
+		8764663C2B02DA2A001CD1DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8756A24A2B01548600B9BB87 /* Frameworks */ = {
+		8764664C2B02DA2B001CD1DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,103 +82,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8756A2342B01548500B9BB87 = {
+		876466362B02DA2A001CD1DB = {
 			isa = PBXGroup;
 			children = (
-				8756A2712B0178C500B9BB87 /* Shared */,
-				8756A23F2B01548500B9BB87 /* Exercise8_Nguyen_Minh */,
-				8756A2512B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App */,
-				8756A23E2B01548500B9BB87 /* Products */,
+				8764666C2B02DAE9001CD1DB /* Shared */,
+				876466412B02DA2A001CD1DB /* Exercise8_Nguyen_Minh */,
+				876466532B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App */,
+				876466402B02DA2A001CD1DB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8756A23E2B01548500B9BB87 /* Products */ = {
+		876466402B02DA2A001CD1DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8756A23D2B01548500B9BB87 /* Exercise8_Nguyen_Minh.app */,
-				8756A24D2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App.app */,
+				8764663F2B02DA2A001CD1DB /* Exercise8_Nguyen_Minh.app */,
+				8764664F2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8756A23F2B01548500B9BB87 /* Exercise8_Nguyen_Minh */ = {
+		876466412B02DA2A001CD1DB /* Exercise8_Nguyen_Minh */ = {
 			isa = PBXGroup;
 			children = (
-				8756A2402B01548500B9BB87 /* Exercise8_Nguyen_MinhApp.swift */,
-				8756A2422B01548500B9BB87 /* ContentView.swift */,
-				8756A2662B01581400B9BB87 /* ImageClassifier.swift */,
-				8756A2682B01584200B9BB87 /* Classifier.swift */,
-				8756A2642B0154B900B9BB87 /* Resnet50.mlmodel */,
-				8756A2442B01548600B9BB87 /* Assets.xcassets */,
-				8756A2462B01548600B9BB87 /* Preview Content */,
+				876466422B02DA2A001CD1DB /* Exercise8_Nguyen_MinhApp.swift */,
+				8764666A2B02DAA7001CD1DB /* ImageClassifier.swift */,
+				876466682B02DA89001CD1DB /* Resnet50.mlmodel */,
+				876466442B02DA2A001CD1DB /* ContentView.swift */,
+				876466662B02DA54001CD1DB /* Classifier.swift */,
+				876466462B02DA2B001CD1DB /* Assets.xcassets */,
+				876466482B02DA2B001CD1DB /* Preview Content */,
 			);
 			path = Exercise8_Nguyen_Minh;
 			sourceTree = "<group>";
 		};
-		8756A2462B01548600B9BB87 /* Preview Content */ = {
+		876466482B02DA2B001CD1DB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8756A2472B01548600B9BB87 /* Preview Assets.xcassets */,
+				876466492B02DA2B001CD1DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8756A2512B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App */ = {
+		876466532B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				8756A2522B01548600B9BB87 /* Exercise8_Nguyen_MinhApp.swift */,
-				8756A2542B01548600B9BB87 /* ContentView.swift */,
-				8756A2562B01548700B9BB87 /* Assets.xcassets */,
-				8756A2582B01548700B9BB87 /* Preview Content */,
+				876466542B02DA2B001CD1DB /* Exercise8_Nguyen_MinhApp.swift */,
+				876466562B02DA2B001CD1DB /* ContentView.swift */,
+				876466582B02DA2C001CD1DB /* Assets.xcassets */,
+				8764665A2B02DA2C001CD1DB /* Preview Content */,
 			);
 			path = "Exercise8_Nguyen_Minh Watch App";
 			sourceTree = "<group>";
 		};
-		8756A2582B01548700B9BB87 /* Preview Content */ = {
+		8764665A2B02DA2C001CD1DB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8756A2592B01548700B9BB87 /* Preview Assets.xcassets */,
+				8764665B2B02DA2C001CD1DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8756A2712B0178C500B9BB87 /* Shared */ = {
+		8764666C2B02DAE9001CD1DB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8756A2722B0178D700B9BB87 /* SyncService.swift */,
+				8764666D2B02DAFB001CD1DB /* SyncService.swift */,
 			);
-			name = Shared;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8756A23C2B01548500B9BB87 /* Exercise8_Nguyen_Minh */ = {
+		8764663E2B02DA2A001CD1DB /* Exercise8_Nguyen_Minh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8756A2612B01548700B9BB87 /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh" */;
+			buildConfigurationList = 876466632B02DA2C001CD1DB /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh" */;
 			buildPhases = (
-				8756A2392B01548500B9BB87 /* Sources */,
-				8756A23A2B01548500B9BB87 /* Frameworks */,
-				8756A23B2B01548500B9BB87 /* Resources */,
-				8756A2602B01548700B9BB87 /* Embed Watch Content */,
+				8764663B2B02DA2A001CD1DB /* Sources */,
+				8764663C2B02DA2A001CD1DB /* Frameworks */,
+				8764663D2B02DA2A001CD1DB /* Resources */,
+				876466622B02DA2C001CD1DB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8756A2502B01548600B9BB87 /* PBXTargetDependency */,
+				876466522B02DA2B001CD1DB /* PBXTargetDependency */,
 			);
 			name = Exercise8_Nguyen_Minh;
 			productName = Exercise8_Nguyen_Minh;
-			productReference = 8756A23D2B01548500B9BB87 /* Exercise8_Nguyen_Minh.app */;
+			productReference = 8764663F2B02DA2A001CD1DB /* Exercise8_Nguyen_Minh.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8756A24C2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App */ = {
+		8764664E2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8756A25D2B01548700B9BB87 /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh Watch App" */;
+			buildConfigurationList = 8764665F2B02DA2C001CD1DB /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh Watch App" */;
 			buildPhases = (
-				8756A2492B01548600B9BB87 /* Sources */,
-				8756A24A2B01548600B9BB87 /* Frameworks */,
-				8756A24B2B01548600B9BB87 /* Resources */,
+				8764664B2B02DA2B001CD1DB /* Sources */,
+				8764664C2B02DA2B001CD1DB /* Frameworks */,
+				8764664D2B02DA2B001CD1DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -186,28 +186,28 @@
 			);
 			name = "Exercise8_Nguyen_Minh Watch App";
 			productName = "Exercise8_Nguyen_Minh Watch App";
-			productReference = 8756A24D2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App.app */;
+			productReference = 8764664F2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8756A2352B01548500B9BB87 /* Project object */ = {
+		876466372B02DA2A001CD1DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					8756A23C2B01548500B9BB87 = {
+					8764663E2B02DA2A001CD1DB = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					8756A24C2B01548600B9BB87 = {
+					8764664E2B02DA2B001CD1DB = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 8756A2382B01548500B9BB87 /* Build configuration list for PBXProject "Exercise8_Nguyen_Minh" */;
+			buildConfigurationList = 8764663A2B02DA2A001CD1DB /* Build configuration list for PBXProject "Exercise8_Nguyen_Minh" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,74 +215,74 @@
 				en,
 				Base,
 			);
-			mainGroup = 8756A2342B01548500B9BB87;
-			productRefGroup = 8756A23E2B01548500B9BB87 /* Products */;
+			mainGroup = 876466362B02DA2A001CD1DB;
+			productRefGroup = 876466402B02DA2A001CD1DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8756A23C2B01548500B9BB87 /* Exercise8_Nguyen_Minh */,
-				8756A24C2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App */,
+				8764663E2B02DA2A001CD1DB /* Exercise8_Nguyen_Minh */,
+				8764664E2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8756A23B2B01548500B9BB87 /* Resources */ = {
+		8764663D2B02DA2A001CD1DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8756A2482B01548600B9BB87 /* Preview Assets.xcassets in Resources */,
-				8756A2452B01548600B9BB87 /* Assets.xcassets in Resources */,
+				8764664A2B02DA2B001CD1DB /* Preview Assets.xcassets in Resources */,
+				876466472B02DA2B001CD1DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8756A24B2B01548600B9BB87 /* Resources */ = {
+		8764664D2B02DA2B001CD1DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8756A25A2B01548700B9BB87 /* Preview Assets.xcassets in Resources */,
-				8756A2572B01548700B9BB87 /* Assets.xcassets in Resources */,
+				8764665C2B02DA2C001CD1DB /* Preview Assets.xcassets in Resources */,
+				876466592B02DA2C001CD1DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8756A2392B01548500B9BB87 /* Sources */ = {
+		8764663B2B02DA2A001CD1DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8756A2692B01584200B9BB87 /* Classifier.swift in Sources */,
-				8756A2672B01581400B9BB87 /* ImageClassifier.swift in Sources */,
-				8756A2732B0178D700B9BB87 /* SyncService.swift in Sources */,
-				8756A2432B01548500B9BB87 /* ContentView.swift in Sources */,
-				8756A2652B0154B900B9BB87 /* Resnet50.mlmodel in Sources */,
-				8756A2412B01548500B9BB87 /* Exercise8_Nguyen_MinhApp.swift in Sources */,
+				876466452B02DA2A001CD1DB /* ContentView.swift in Sources */,
+				876466672B02DA54001CD1DB /* Classifier.swift in Sources */,
+				8764666E2B02DAFB001CD1DB /* SyncService.swift in Sources */,
+				8764666B2B02DAA7001CD1DB /* ImageClassifier.swift in Sources */,
+				876466692B02DA89001CD1DB /* Resnet50.mlmodel in Sources */,
+				876466432B02DA2A001CD1DB /* Exercise8_Nguyen_MinhApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8756A2492B01548600B9BB87 /* Sources */ = {
+		8764664B2B02DA2B001CD1DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8756A2552B01548600B9BB87 /* ContentView.swift in Sources */,
-				8756A2532B01548600B9BB87 /* Exercise8_Nguyen_MinhApp.swift in Sources */,
-				8756A2742B0178D700B9BB87 /* SyncService.swift in Sources */,
+				876466572B02DA2B001CD1DB /* ContentView.swift in Sources */,
+				876466552B02DA2B001CD1DB /* Exercise8_Nguyen_MinhApp.swift in Sources */,
+				8764666F2B02DAFB001CD1DB /* SyncService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8756A2502B01548600B9BB87 /* PBXTargetDependency */ = {
+		876466522B02DA2B001CD1DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8756A24C2B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App */;
-			targetProxy = 8756A24F2B01548600B9BB87 /* PBXContainerItemProxy */;
+			target = 8764664E2B02DA2B001CD1DB /* Exercise8_Nguyen_Minh Watch App */;
+			targetProxy = 876466512B02DA2B001CD1DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8756A25B2B01548700B9BB87 /* Debug */ = {
+		8764665D2B02DA2C001CD1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +343,7 @@
 			};
 			name = Debug;
 		};
-		8756A25C2B01548700B9BB87 /* Release */ = {
+		8764665E2B02DA2C001CD1DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,7 +396,7 @@
 			};
 			name = Release;
 		};
-		8756A25E2B01548700B9BB87 /* Debug */ = {
+		876466602B02DA2C001CD1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,7 +426,7 @@
 			};
 			name = Debug;
 		};
-		8756A25F2B01548700B9BB87 /* Release */ = {
+		876466612B02DA2C001CD1DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -457,7 +457,7 @@
 			};
 			name = Release;
 		};
-		8756A2622B01548700B9BB87 /* Debug */ = {
+		876466642B02DA2C001CD1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		8756A2632B01548700B9BB87 /* Release */ = {
+		876466652B02DA2C001CD1DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -527,34 +527,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8756A2382B01548500B9BB87 /* Build configuration list for PBXProject "Exercise8_Nguyen_Minh" */ = {
+		8764663A2B02DA2A001CD1DB /* Build configuration list for PBXProject "Exercise8_Nguyen_Minh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8756A25B2B01548700B9BB87 /* Debug */,
-				8756A25C2B01548700B9BB87 /* Release */,
+				8764665D2B02DA2C001CD1DB /* Debug */,
+				8764665E2B02DA2C001CD1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8756A25D2B01548700B9BB87 /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh Watch App" */ = {
+		8764665F2B02DA2C001CD1DB /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8756A25E2B01548700B9BB87 /* Debug */,
-				8756A25F2B01548700B9BB87 /* Release */,
+				876466602B02DA2C001CD1DB /* Debug */,
+				876466612B02DA2C001CD1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8756A2612B01548700B9BB87 /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh" */ = {
+		876466632B02DA2C001CD1DB /* Build configuration list for PBXNativeTarget "Exercise8_Nguyen_Minh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8756A2622B01548700B9BB87 /* Debug */,
-				8756A2632B01548700B9BB87 /* Release */,
+				876466642B02DA2C001CD1DB /* Debug */,
+				876466652B02DA2C001CD1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8756A2352B01548500B9BB87 /* Project object */;
+	rootObject = 876466372B02DA2A001CD1DB /* Project object */;
 }

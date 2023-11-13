@@ -2,7 +2,7 @@
 //  SyncService.swift
 //  Exercise8_Nguyen_Minh
 //
-//  Created by Minh Nguyen on 11/12/23.
+//  Created by Minh Nguyen on 11/13/23.
 //
 
 import Foundation
@@ -32,11 +32,11 @@ class SyncService: NSObject, WCSessionDelegate {
     
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) { }
     
-    #if os(iOS)
+#if os(iOS)
     func sessionDidBecomeInactive(_ session: WCSession) { }
     
     func sessionDidDeactivate(_ session: WCSession) { }
-    #endif
+#endif
     
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
         guard dataReceived != nil else {

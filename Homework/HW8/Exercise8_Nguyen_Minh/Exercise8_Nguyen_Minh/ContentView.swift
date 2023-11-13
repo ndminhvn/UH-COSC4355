@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Exercise8_Nguyen_Minh
 //
-//  Created by Minh Nguyen on 11/12/23.
+//  Created by Minh Nguyen on 11/13/23.
 //
 
 import CoreML
@@ -12,12 +12,12 @@ import SwiftUI
 struct ContentView: View {
     var images = ["car", "house", "people"]
     @ObservedObject var classifier: ImageClassifier
-
+    
     @State var classificationText = "Classifying Image..."
     @State var classificationImageName = "car"
-
+    
     var syncService = SyncService()
-
+    
     var body: some View {
         TabView {
             VStack {
@@ -76,7 +76,7 @@ struct ContentView: View {
                 Text("Objects identification")
                 Image(systemName: "photo")
             }
-
+            
             VStack {
                 Text("Pª ") // use fn + e
                     .foregroundStyle(.red)
@@ -128,7 +128,7 @@ struct ContentView: View {
                     .background(.thinMaterial)
             }
             .background(.gray)
-
+            
             .tabItem {
                 Text("Text recognition")
                 Image(systemName: "doc.text")
@@ -136,27 +136,27 @@ struct ContentView: View {
         }
         .accentColor(.red)
     }
-
+    
     func analyzeImage(text: String) -> Int {
         // limit input to first 100 symbols
         let text = String(text.prefix(100))
-
+        
         let tagger = NLTagger(tagSchemes: [.sentimentScore])
         tagger.string = text
-
+        
         let object = tagger.tag(at: text.startIndex, unit: .paragraph, scheme: .sentimentScore).0
         let score = Double(object?.rawValue ?? "0") ?? 0
-
+        
         let outputTxt = "The input: \(text) \n is "
-
+//        return Int.random(in: 0..<3)
         if score == 0 {
             print(outputTxt + "neutral with a score of \(score)")
             return 2
-
+            
         } else if score < 0 {
             print(outputTxt + "negative with a score of \(score)")
             return 3
-
+            
         } else {
             print(outputTxt + "positive with a score of \(score)")
             return 1
