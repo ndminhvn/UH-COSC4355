@@ -19,8 +19,8 @@
 		8756A2652B0154B900B9BB87 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2642B0154B900B9BB87 /* Resnet50.mlmodel */; };
 		8756A2672B01581400B9BB87 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2662B01581400B9BB87 /* ImageClassifier.swift */; };
 		8756A2692B01584200B9BB87 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2682B01584200B9BB87 /* Classifier.swift */; };
-		8756A26C2B015C1D00B9BB87 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A26B2B015C1D00B9BB87 /* SyncService.swift */; };
-		8756A26D2B015CAB00B9BB87 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A26B2B015C1D00B9BB87 /* SyncService.swift */; };
+		8756A2732B0178D700B9BB87 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2722B0178D700B9BB87 /* SyncService.swift */; };
+		8756A2742B0178D700B9BB87 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756A2722B0178D700B9BB87 /* SyncService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		8756A2642B0154B900B9BB87 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		8756A2662B01581400B9BB87 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
 		8756A2682B01584200B9BB87 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
-		8756A26B2B015C1D00B9BB87 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		8756A2722B0178D700B9BB87 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		8756A2342B01548500B9BB87 = {
 			isa = PBXGroup;
 			children = (
-				8756A26A2B015C0700B9BB87 /* Shared */,
+				8756A2712B0178C500B9BB87 /* Shared */,
 				8756A23F2B01548500B9BB87 /* Exercise8_Nguyen_Minh */,
 				8756A2512B01548600B9BB87 /* Exercise8_Nguyen_Minh Watch App */,
 				8756A23E2B01548500B9BB87 /* Products */,
@@ -142,12 +142,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8756A26A2B015C0700B9BB87 /* Shared */ = {
+		8756A2712B0178C500B9BB87 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8756A26B2B015C1D00B9BB87 /* SyncService.swift */,
+				8756A2722B0178D700B9BB87 /* SyncService.swift */,
 			);
-			path = Shared;
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +254,7 @@
 			files = (
 				8756A2692B01584200B9BB87 /* Classifier.swift in Sources */,
 				8756A2672B01581400B9BB87 /* ImageClassifier.swift in Sources */,
-				8756A26C2B015C1D00B9BB87 /* SyncService.swift in Sources */,
+				8756A2732B0178D700B9BB87 /* SyncService.swift in Sources */,
 				8756A2432B01548500B9BB87 /* ContentView.swift in Sources */,
 				8756A2652B0154B900B9BB87 /* Resnet50.mlmodel in Sources */,
 				8756A2412B01548500B9BB87 /* Exercise8_Nguyen_MinhApp.swift in Sources */,
@@ -267,7 +267,7 @@
 			files = (
 				8756A2552B01548600B9BB87 /* ContentView.swift in Sources */,
 				8756A2532B01548600B9BB87 /* Exercise8_Nguyen_MinhApp.swift in Sources */,
-				8756A26D2B015CAB00B9BB87 /* SyncService.swift in Sources */,
+				8756A2742B0178D700B9BB87 /* SyncService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

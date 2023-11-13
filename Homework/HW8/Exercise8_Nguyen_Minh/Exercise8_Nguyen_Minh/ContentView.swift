@@ -33,13 +33,13 @@ struct ContentView: View {
                     .border(.red, width: 4)
                     .onAppear {
                         classifier.detectObj(uiImage: UIImage(named: classificationImageName)!)
-                        syncService.sendMessage("mood", "\(analyzeSentiment(text: classifier.imageClass!))", { _ in })
+                        syncService.sendMessage("mood", "\(analyzeImage(text: classifier.imageClass!))", { error in })
                     }
                     .onTapGesture {
                         // get random element from array excluding current
                         classificationImageName = (images.filter { $0 != classificationImageName }).randomElement()!
                         classifier.detectObj(uiImage: UIImage(named: classificationImageName)!)
-                        syncService.sendMessage("mood", "\(analyzeSentiment(text: classifier.imageClass!))", { _ in })
+                        syncService.sendMessage("mood", "\(analyzeImage(text: classifier.imageClass!))", { error in })
                     }
                 Spacer()
                 Group {
@@ -90,13 +90,13 @@ struct ContentView: View {
                     .border(.red, width: 4)
                     .onAppear {
                         classifier.detectTxt(uiImage: UIImage(named: classificationImageName)!)
-                        syncService.sendMessage("mood", "\(analyzeSentiment(text: classifier.imageText!))", { _ in })
+                        syncService.sendMessage("mood", "\(analyzeImage(text: classifier.imageText!))", { error in })
                     }
                     .onTapGesture {
                         // get random element from array excluding current
                         classificationImageName = (images.filter { $0 != classificationImageName }).randomElement()!
                         classifier.detectTxt(uiImage: UIImage(named: classificationImageName)!)
-                        syncService.sendMessage("mood", "\(analyzeSentiment(text: classifier.imageText!))", { _ in })
+                        syncService.sendMessage("mood", "\(analyzeImage(text: classifier.imageText!))", { error in })
                     }
                 Spacer()
                 Group {
@@ -137,21 +137,17 @@ struct ContentView: View {
         .accentColor(.red)
     }
 
-    func analyzeSentiment(text: String) -> Int {
+    func analyzeImage(text: String) -> Int {
         // limit input to first 100 symbols
         let text = String(text.prefix(100))
 
         let tagger = NLTagger(tagSchemes: [.sentimentScore])
         tagger.string = text
 
-        let sentiment = tagger.tag(at: text.startIndex, unit: .paragraph, scheme: .sentimentScore).0
-        let score = Double(sentiment?.rawValue ?? "0") ?? 0
+        let object = tagger.tag(at: text.startIndex, unit: .paragraph, scheme: .sentimentScore).0
+        let score = Double(object?.rawValue ?? "0") ?? 0
 
         let outputTxt = "The input: \(text) \n is "
-
-        // sentiment analyzis is broken in the current update
-
-//        return Int.random(in: 0 ..< 3)
 
         if score == 0 {
             print(outputTxt + "neutral with a score of \(score)")

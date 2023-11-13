@@ -7,7 +7,6 @@
 
 import CoreImage
 import CoreML
-import Foundation
 import Vision
 
 struct Classifier {
@@ -35,7 +34,7 @@ struct Classifier {
             classificationResultText += "\(Int(result.confidence * 100))% \(result.identifier)\n"
         }
 
-        objResults = classificationResultText
+        self.objResults = classificationResultText
         /*
          if let firstResult = results.first {
          self.results = firstResult.identifier
@@ -62,6 +61,6 @@ struct Classifier {
 
         let classificationResultText = recognizedStrings.joined(separator: ", ")
 
-        txtResults = classificationResultText
+        self.txtResults = classificationResultText
     }
 }

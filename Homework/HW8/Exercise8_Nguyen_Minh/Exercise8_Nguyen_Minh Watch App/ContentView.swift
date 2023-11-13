@@ -9,11 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     private var syncService = SyncService()
-    @State private var data: String = ""
     @State private var receivedData: [String] = []
-
-    var moodArray = ["🤔", "😊", "🤨", "😫"]
-    @State var moodIdx = 0
+    var icons = ["❓", "🚗", "💻", "🏠"]
+    @State var iconIdx = 0
 
     var body: some View {
         VStack {
@@ -22,8 +20,8 @@ struct ContentView: View {
                 .font(.system(size: 36))
                 .bold()
                 .frame(maxWidth: .infinity, alignment: .trailing)
-
-            Text(moodArray[moodIdx])
+            
+            Text(icons[iconIdx])
                 .font(.system(size: 80))
 
             // Bleeds into TabView
@@ -35,9 +33,9 @@ struct ContentView: View {
         .onAppear { syncService.dataReceived = Receive }
     }
 
-    private func Receive(key: String, value: Any) {
-        receivedData.append("\(Date().formatted(date: .omitted, time: .standard)) - \(key):\(value)")
-        moodIdx = Int("\(value)") ?? 0
+    private func Receive(key: String, value: Any) -> Void {
+        self.receivedData.append("\(Date().formatted(date: .omitted, time: .standard)) - \(key):\(value)")
+        self.iconIdx = Int("\(value)") ?? 0
     }
 }
 
